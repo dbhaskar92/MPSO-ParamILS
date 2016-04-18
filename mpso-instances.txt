@@ -1,0 +1,5 @@
+Sphere -100,100,0,0.01
+Ackley -32,32,0,0.001
+Griewank -600,600,0,0.1
+Rastrigin -5.12,5.12,0,0.1
+Rosenbrock -30,30,0,0.1
