@@ -7,29 +7,35 @@
 %   Memetic Particle Swarm Optimization, Y. G. Petalas, et al. 
 %
 % Last modified:
-%   Monday, May 20, 2013
+%   Sunday, April 17, 2016
 %
 
 function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_file,cutoff_time,cutoff_length,seed,c1,c2,rad,lbd,tmax)
 
-	cd('/home/dbhaskar92/MPSO-ParamILS');
-	fileID = fopen(out_file, 'w');
+    cd('/home/dbhaskar92/MPSO-ParamILS');
+    fileID = fopen(out_file, 'w');
 
     % global params
     N = 30;
     dim = 15;
     fun = str2func(func_name)
+    fprintf(fileID,'DEBUG INFO SS: %d Dim: %d Func Call: %s PRNG Seed: %d \n', N, dim, func_name, seed);
+    fprintf(fileID,'DEBUG INFO xmin: %f xmax: %f true_min: %f err_goal: %f \n', xmin, xmax, true_min, errgoal);
+    fprintf(fileID,'DEBUG INFO Control Parameters cutoff_time: %f cutoff_length %d \n', cutoff_time, cutoff_length);
     
     % local search params
     freq = 5;
     epsilon = 0.5;
     scheme = 2;
-    
     lambda = lbd;
+    fprintf(fileID,'DEBUG INFO Local Search scheme: %d freq: %d prob: %f lambda: %f tmax: %d \n', scheme, freq, epsilon, lambda, tmax);
+    
+    % social params 
     kappa = 1;
     phi = c1 + c2;
     cf = 2*kappa;
     cf = cf/abs(2 - phi - sqrt(phi^2 - 4*phi))
+    fprintf(fileID,'DEBUG INFO c1: %f c2: %f cf: %f radius: %d \n', c1, c2, cf, rad);
     
     % initialization
     t = 0;
