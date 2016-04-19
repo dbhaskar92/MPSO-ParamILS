@@ -16,8 +16,8 @@ function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_f
     fileID = fopen(out_file, 'w');
 
     % global params
-    N = 30;
-    dim = 15;
+    N = 15;
+    dim = 5;
     fun = str2func(func_name)
     fprintf(fileID,'DEBUG INFO SS: %d Dim: %d Func Call: %s PRNG Seed: %d \n', N, dim, func_name, seed);
     fprintf(fileID,'DEBUG INFO xmin: %f xmax: %f true_min: %f err_goal: %f \n', xmin, xmax, true_min, errgoal);
@@ -179,7 +179,11 @@ function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_f
     optimum = gbest_value;
     tElapsed = toc(tStart);
     
-    fprintf(fileID,'SAT,%f,%d,%f,%d', tElapsed, fev, gbest_value, seed);
+    if tElapsed < 60
+    	fprintf(fileID,'SAT,%f,%d,%f,%d', tElapsed, fev, gbest_value, seed);
+    else
+    	fprintf(fileID,'TIMEOUT,%f,%d,%f,%d', tElapsed, fev, gbest_value, seed);	
+    end
     
     fclose(fileID);
     

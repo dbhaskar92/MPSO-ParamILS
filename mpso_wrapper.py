@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 #
-# Last modified: 17 Apr 2016
+# Last modified: 18 Apr 2016
 # Author: Dhananjay Bhaskar <dbhaskar92@gmail.com>
 # 
 
@@ -62,3 +62,11 @@ res = eng.MPSO(instance_name,xmin,xmax,true_min,errgoal,filename,cutoff_time,cut
 
 if not(os.path.isfile(filename)):
 	print 'Error: MATLAB did not create output file'
+	
+with open(filename) as f:
+	last = None
+	for last in (line for line in f if line.rstrip('\n')):
+		pass
+
+res = re.split(',',last)
+print 'Result for ParamILS: '+res[0]+', '+str(res[1])+', '+str(res[2])+', '+str(res[3])+', '+str(res[4])
