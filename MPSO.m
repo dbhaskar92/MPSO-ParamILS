@@ -38,6 +38,7 @@ function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_f
     fprintf(fileID,'DEBUG INFO c1: %f c2: %f cf: %f radius: %d \n', c1, c2, cf, rad);
     
     % initialization
+    tStart = tic;
     t = 0;
     fev = 0;
    
@@ -80,7 +81,7 @@ function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_f
     [gbest_value, index] = min(f_values(:,1));
     gbest = x(index,:);                                             
     
-    while (fev < 2000 && abs(gbest_value - true_min) > errgoal)
+    while (toc(tStart) < cutoff_time && abs(gbest_value - true_min) > errgoal)
         
             % update
             t = t + 1;
@@ -176,8 +177,9 @@ function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_f
     end
     
     optimum = gbest_value;
+    tElapsed = toc(tStart);
     
-    fprintf(fileID,'SAT runtime %d %f %d', fev, gbest_value, seed);
+    fprintf(fileID,'SAT,%f,%d,%f,%d', tElapsed, fev, gbest_value, seed);
     
     fclose(fileID);
     
