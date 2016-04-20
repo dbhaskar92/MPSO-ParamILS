@@ -14,6 +14,7 @@ function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_f
 
     cd('/home/dbhaskar92/MPSO-ParamILS');
     fileID = fopen(out_file, 'w');
+	addpath('./function-definitions');
 
     % global params
     N = 15;
@@ -39,6 +40,7 @@ function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_f
     
     % initialization
     tStart = tic;
+    rng(seed,'twister');
     t = 0;
     fev = 0;
    

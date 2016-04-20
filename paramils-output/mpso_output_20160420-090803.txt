@@ -1,0 +1,6 @@
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.025000 c2: 2.050000 cf: 0.761083 radius: 3 
+TIMEOUT,60.002220,630610,0.994959,524453158
