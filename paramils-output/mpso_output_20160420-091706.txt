@@ -1,6 +1,0 @@
-DEBUG INFO SS: 15 Dim: 5 Func Call: Griewank PRNG Seed: 1860322579 
-DEBUG INFO xmin: -600.000000 xmax: 600.000000 true_min: 0.000000 err_goal: 0.100000 
-DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
-DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
-DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
-SAT,1.986599,8930,0.083644,1860322579
