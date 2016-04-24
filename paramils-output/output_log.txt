@@ -1,0 +1,1264 @@
+./mpso_output_20160420-082829.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 5 
+DEBUG INFO c1: 2.050000 c2: 2.050000 cf: 0.729844 radius: 1 
+SAT,2.570291,18580,0.077067,524453158
+
+./mpso_output_20160420-082855.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 0.500000 tmax: 8 
+DEBUG INFO c1: 2.075000 c2: 2.150000 cf: 0.625000 radius: 1 
+SAT,3.061061,31194,0.086087,524453158
+
+./mpso_output_20160420-082916.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 12 
+DEBUG INFO c1: 2.000000 c2: 2.025000 cf: 0.853893 radius: 2 
+SAT,3.346537,32865,0.069043,524453158
+
+./mpso_output_20160420-082937.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.025000 c2: 2.050000 cf: 0.761083 radius: 4 
+TIMEOUT,60.001339,535320,0.994959,524453158
+
+./mpso_output_20160420-083055.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.100000 cf: 0.641742 radius: 3 
+SAT,1.935853,8940,0.005229,524453158
+
+./mpso_output_20160420-083116.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 0.500000 tmax: 5 
+DEBUG INFO c1: 2.000000 c2: 2.000000 cf: 1.000000 radius: 2 
+TIMEOUT,60.002037,583860,6.959070,524453158
+
+./mpso_output_20160420-083235.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.025000 c2: 2.150000 cf: 0.660117 radius: 4 
+TIMEOUT,60.000800,534500,1.989918,524453158
+
+./mpso_output_20160420-083354.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 5 
+DEBUG INFO c1: 2.000000 c2: 2.075000 cf: 0.761083 radius: 2 
+TIMEOUT,60.001947,628370,0.994959,524453158
+
+./mpso_output_20160420-083513.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 12 
+DEBUG INFO c1: 2.150000 c2: 2.050000 cf: 0.641742 radius: 4 
+SAT,4.483544,34743,0.062336,524453158
+
+./mpso_output_20160420-083536.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 12 
+DEBUG INFO c1: 2.000000 c2: 2.025000 cf: 0.853893 radius: 1 
+SAT,6.255972,90393,0.016570,524453158
+
+./mpso_output_20160420-083600.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 5 
+DEBUG INFO c1: 2.050000 c2: 2.075000 cf: 0.703465 radius: 2 
+TIMEOUT,60.001030,640015,0.994959,524453158
+
+./mpso_output_20160420-083718.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 0.800000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.100000 cf: 0.641742 radius: 3 
+TIMEOUT,60.002575,640265,0.994959,524453158
+
+./mpso_output_20160420-083837.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.150000 cf: 0.609612 radius: 3 
+TIMEOUT,60.002114,617615,1.989918,524453158
+
+./mpso_output_20160420-083955.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 0.500000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.100000 cf: 0.641742 radius: 3 
+TIMEOUT,60.000983,650565,1.989918,524453158
+
+./mpso_output_20160420-084114.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.100000 cf: 0.641742 radius: 1 
+SAT,2.474137,22605,0.039183,524453158
+
+./mpso_output_20160420-084135.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.025000 cf: 0.703465 radius: 3 
+TIMEOUT,60.001000,633895,0.994959,524453158
+
+./mpso_output_20160420-084253.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 12 
+DEBUG INFO c1: 2.100000 c2: 2.100000 cf: 0.641742 radius: 3 
+TIMEOUT,60.001030,672030,0.994959,524453158
+
+./mpso_output_20160420-084411.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 5 
+DEBUG INFO c1: 2.100000 c2: 2.100000 cf: 0.641742 radius: 3 
+TIMEOUT,60.000861,502750,3.979831,524453158
+
+./mpso_output_20160420-084529.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.100000 cf: 0.641742 radius: 2 
+TIMEOUT,60.004920,782745,0.994959,524453158
+
+./mpso_output_20160420-084647.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.100000 cf: 0.641742 radius: 3 
+TIMEOUT,60.001580,640390,1.989918,524453158
+
+./mpso_output_20160420-084806.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.025000 c2: 2.100000 cf: 0.703465 radius: 3 
+TIMEOUT,60.000969,632245,0.994959,524453158
+
+./mpso_output_20160420-084924.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.075000 cf: 0.660117 radius: 3 
+TIMEOUT,60.001001,648140,0.994959,524453158
+
+./mpso_output_20160420-085047.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.150000 c2: 2.100000 cf: 0.609612 radius: 3 
+TIMEOUT,60.003491,640765,0.994959,524453158
+
+./mpso_output_20160420-085206.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.000000 c2: 2.100000 cf: 0.729844 radius: 3 
+SAT,2.203883,11900,0.014025,524453158
+
+./mpso_output_20160420-085226.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.297765,2235,0.091926,524453158
+
+./mpso_output_20160420-085245.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Ackley PRNG Seed: 1880026316 
+DEBUG INFO xmin: -32.000000 xmax: 32.000000 true_min: 0.000000 err_goal: 0.001000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.438657,3020,0.000891,1880026316
+
+./mpso_output_20160420-085304.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Sphere PRNG Seed: 1225605784 
+DEBUG INFO xmin: -100.000000 xmax: 100.000000 true_min: 0.000000 err_goal: 0.010000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.306812,2130,0.006436,1225605784
+
+./mpso_output_20160420-085325.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rosenbrock PRNG Seed: 1202486927 
+DEBUG INFO xmin: -30.000000 xmax: 30.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.635936,6010,0.099777,1202486927
+
+./mpso_output_20160420-085344.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Griewank PRNG Seed: 1549064881 
+DEBUG INFO xmin: -600.000000 xmax: 600.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.332163,2325,0.097172,1549064881
+
+./mpso_output_20160420-085404.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Ackley PRNG Seed: 1187404954 
+DEBUG INFO xmin: -32.000000 xmax: 32.000000 true_min: 0.000000 err_goal: 0.001000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.477531,3350,0.000868,1187404954
+
+./mpso_output_20160420-085424.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 1296531115 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+TIMEOUT,60.001865,644820,0.994959,1296531115
+
+./mpso_output_20160420-085543.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rosenbrock PRNG Seed: 1967693548 
+DEBUG INFO xmin: -30.000000 xmax: 30.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,2.058410,11385,0.099763,1967693548
+
+./mpso_output_20160420-085603.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Sphere PRNG Seed: 1614618394 
+DEBUG INFO xmin: -100.000000 xmax: 100.000000 true_min: 0.000000 err_goal: 0.010000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.289657,2115,0.008342,1614618394
+
+./mpso_output_20160420-085622.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Griewank PRNG Seed: 498808182 
+DEBUG INFO xmin: -600.000000 xmax: 600.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,2.739816,8930,0.081018,498808182
+
+./mpso_output_20160420-085643.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Griewank PRNG Seed: 55437432 
+DEBUG INFO xmin: -600.000000 xmax: 600.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.714560,5930,0.077553,55437432
+
+./mpso_output_20160420-085703.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Sphere PRNG Seed: 2090933724 
+DEBUG INFO xmin: -100.000000 xmax: 100.000000 true_min: 0.000000 err_goal: 0.010000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.268087,1800,0.009692,2090933724
+
+./mpso_output_20160420-085722.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 1421700432 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+TIMEOUT,60.001913,640695,2.984877,1421700432
+
+./mpso_output_20160420-085841.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rosenbrock PRNG Seed: 1299827071 
+DEBUG INFO xmin: -30.000000 xmax: 30.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,4.988979,44370,0.097283,1299827071
+
+./mpso_output_20160420-085904.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Ackley PRNG Seed: 1590214902 
+DEBUG INFO xmin: -32.000000 xmax: 32.000000 true_min: 0.000000 err_goal: 0.001000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.427009,2890,0.000636,1590214902
+
+./mpso_output_20160420-085923.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.150000 c2: 2.050000 cf: 0.641742 radius: 3 
+SAT,2.108652,11790,0.055576,524453158
+
+./mpso_output_20160420-085943.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 0.500000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+TIMEOUT,60.002715,646245,0.994959,524453158
+
+./mpso_output_20160420-090102.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.000000 cf: 0.729844 radius: 3 
+SAT,5.266375,46755,0.097295,524453158
+
+./mpso_output_20160420-090125.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 1 
+SAT,1.672926,9145,0.042490,524453158
+
+./mpso_output_20160420-090145.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.499351,3940,0.073598,524453158
+
+./mpso_output_20160420-090204.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.125000 cf: 0.625000 radius: 3 
+TIMEOUT,60.000572,622130,1.989918,524453158
+
+./mpso_output_20160420-090322.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 5 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+TIMEOUT,60.002533,505745,0.994959,524453158
+
+./mpso_output_20160420-090441.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 0.800000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,9.794345,94160,0.093804,524453158
+
+./mpso_output_20160420-090508.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 12 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.401164,2973,0.052522,524453158
+
+./mpso_output_20160420-090527.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.050000 cf: 0.703465 radius: 3 
+TIMEOUT,60.001395,634805,1.989918,524453158
+
+./mpso_output_20160420-090645.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 4 
+TIMEOUT,60.003030,538045,1.989918,524453158
+
+./mpso_output_20160420-090803.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.025000 c2: 2.050000 cf: 0.761083 radius: 3 
+TIMEOUT,60.002220,630610,0.994959,524453158
+
+./mpso_output_20160420-090923.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.125000 c2: 2.050000 cf: 0.660117 radius: 3 
+TIMEOUT,60.004449,630680,2.984877,524453158
+
+./mpso_output_20160420-091041.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.050000 c2: 2.050000 cf: 0.729844 radius: 3 
+SAT,1.430483,3770,0.060922,524453158
+
+./mpso_output_20160420-091105.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 8 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,2.443306,13998,0.097277,524453158
+
+./mpso_output_20160420-091125.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.000000 c2: 2.050000 cf: 0.800000 radius: 3 
+SAT,3.182460,24105,0.097032,524453158
+
+./mpso_output_20160420-091148.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 2 
+TIMEOUT,60.000900,752975,0.994959,524453158
+
+./mpso_output_20160420-091306.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Griewank PRNG Seed: 13242096 
+DEBUG INFO xmin: -600.000000 xmax: 600.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,15.308742,147490,0.099327,13242096
+
+./mpso_output_20160420-091341.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rosenbrock PRNG Seed: 59135052 
+DEBUG INFO xmin: -30.000000 xmax: 30.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,10.513602,112270,0.097853,59135052
+
+./mpso_output_20160420-091409.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Ackley PRNG Seed: 1171781410 
+DEBUG INFO xmin: -32.000000 xmax: 32.000000 true_min: 0.000000 err_goal: 0.001000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.483319,3575,0.000915,1171781410
+
+./mpso_output_20160420-091430.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Sphere PRNG Seed: 1643431418 
+DEBUG INFO xmin: -100.000000 xmax: 100.000000 true_min: 0.000000 err_goal: 0.010000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.277514,1930,0.005544,1643431418
+
+./mpso_output_20160420-091449.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 1058256067 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.710192,5570,0.091996,1058256067
+
+./mpso_output_20160420-091509.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 495622784 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+TIMEOUT,60.001238,632425,0.994959,495622784
+
+./mpso_output_20160420-091627.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Ackley PRNG Seed: 323759947 
+DEBUG INFO xmin: -32.000000 xmax: 32.000000 true_min: 0.000000 err_goal: 0.001000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.439958,3310,0.000824,323759947
+
+./mpso_output_20160420-091647.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Sphere PRNG Seed: 1584087043 
+DEBUG INFO xmin: -100.000000 xmax: 100.000000 true_min: 0.000000 err_goal: 0.010000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.281213,1970,0.003400,1584087043
+
+./mpso_output_20160420-091706.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Griewank PRNG Seed: 1860322579 
+DEBUG INFO xmin: -600.000000 xmax: 600.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.986599,8930,0.083644,1860322579
+
+./mpso_output_20160420-091726.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rosenbrock PRNG Seed: 1691282316 
+DEBUG INFO xmin: -30.000000 xmax: 30.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.914328,8910,0.087366,1691282316
+
+./mpso_output_20160420-091746.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Ackley PRNG Seed: 1944459723 
+DEBUG INFO xmin: -32.000000 xmax: 32.000000 true_min: 0.000000 err_goal: 0.001000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.432781,3200,0.000918,1944459723
+
+./mpso_output_20160420-091805.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rosenbrock PRNG Seed: 163843691 
+DEBUG INFO xmin: -30.000000 xmax: 30.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,7.693560,80135,0.099991,163843691
+
+./mpso_output_20160420-091830.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 1248212433 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.518045,4735,0.090821,1248212433
+
+./mpso_output_20160420-091850.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Sphere PRNG Seed: 2000751859 
+DEBUG INFO xmin: -100.000000 xmax: 100.000000 true_min: 0.000000 err_goal: 0.010000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.259967,1630,0.003955,2000751859
+
+./mpso_output_20160420-091909.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Griewank PRNG Seed: 292481479 
+DEBUG INFO xmin: -600.000000 xmax: 600.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.566752,4995,0.099877,292481479
+
+./mpso_output_20160420-091928.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rosenbrock PRNG Seed: 1585390058 
+DEBUG INFO xmin: -30.000000 xmax: 30.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,1.387371,3055,0.036094,1585390058
+
+./mpso_output_20160420-091948.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 1873350574 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.050000 cf: 0.680507 radius: 3 
+SAT,7.240201,69280,0.094894,1873350574
+
+./mpso_output_20160420-092012.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 3 
+SAT,2.403297,15230,0.036409,524453158
+
+./mpso_output_20160420-092033.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.150000 c2: 2.025000 cf: 0.660117 radius: 3 
+TIMEOUT,60.000941,634535,1.989918,524453158
+
+./mpso_output_20160420-092151.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 1 
+SAT,2.051725,15215,0.038969,524453158
+
+./mpso_output_20160420-092211.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,2.168236,14750,0.047375,524453158
+
+./mpso_output_20160420-092230.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Ackley PRNG Seed: 1880026316 
+DEBUG INFO xmin: -32.000000 xmax: 32.000000 true_min: 0.000000 err_goal: 0.001000 
+DEBUG INFO Control Parameters cutoff_time: 16.010000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.486030,4315,0.000831,1880026316
+
+./mpso_output_20160420-092250.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Sphere PRNG Seed: 1225605784 
+DEBUG INFO xmin: -100.000000 xmax: 100.000000 true_min: 0.000000 err_goal: 0.010000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.282152,2445,0.006913,1225605784
+
+./mpso_output_20160420-092310.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rosenbrock PRNG Seed: 1202486927 
+DEBUG INFO xmin: -30.000000 xmax: 30.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,13.832916,175380,0.099871,1202486927
+
+./mpso_output_20160420-092341.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.339649,2880,0.078471,524453158
+
+./mpso_output_20160420-092401.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Ackley PRNG Seed: 1880026316 
+DEBUG INFO xmin: -32.000000 xmax: 32.000000 true_min: 0.000000 err_goal: 0.001000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.483421,4675,0.000820,1880026316
+
+./mpso_output_20160420-092421.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Sphere PRNG Seed: 1225605784 
+DEBUG INFO xmin: -100.000000 xmax: 100.000000 true_min: 0.000000 err_goal: 0.010000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.351117,2970,0.008892,1225605784
+
+./mpso_output_20160420-092440.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rosenbrock PRNG Seed: 1202486927 
+DEBUG INFO xmin: -30.000000 xmax: 30.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,7.624175,92055,0.099646,1202486927
+
+./mpso_output_20160420-092506.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 1 
+SAT,2.218784,18315,0.081268,524453158
+
+./mpso_output_20160420-092527.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 3 
+TIMEOUT,60.001135,647965,0.994959,524453158
+
+./mpso_output_20160420-092646.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.050000 c2: 2.025000 cf: 0.761083 radius: 2 
+SAT,4.126730,41400,0.098537,524453158
+
+./mpso_output_20160420-092708.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.150000 cf: 0.625000 radius: 2 
+TIMEOUT,60.002448,789975,0.994959,524453158
+
+./mpso_output_20160420-092826.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.150000 c2: 2.025000 cf: 0.660117 radius: 2 
+TIMEOUT,60.002718,785965,2.984877,524453158
+
+./mpso_output_20160420-092944.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.100000 c2: 2.025000 cf: 0.703465 radius: 2 
+TIMEOUT,60.001052,763270,0.994959,524453158
+
+./mpso_output_20160420-093103.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.125000 cf: 0.641742 radius: 2 
+TIMEOUT,60.002589,764590,0.994959,524453158
+
+./mpso_output_20160420-093226.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 12 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,2.370387,17679,0.088107,524453158
+
+./mpso_output_20160420-093247.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 5 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,3.565460,27735,0.097511,524453158
+
+./mpso_output_20160420-093308.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 8 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,8.914730,98145,0.062814,524453158
+
+./mpso_output_20160420-093335.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.125000 c2: 2.025000 cf: 0.680507 radius: 2 
+SAT,1.418414,4075,0.034118,524453158
+
+./mpso_output_20160420-093354.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 0.500000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.513185,5765,0.070984,524453158
+
+./mpso_output_20160420-093414.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.075000 cf: 0.680507 radius: 2 
+SAT,1.960504,11335,0.054119,524453158
+
+./mpso_output_20160420-093433.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.025000 c2: 2.025000 cf: 0.800000 radius: 2 
+SAT,5.096205,55475,0.001989,524453158
+
+./mpso_output_20160420-093458.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.000000 c2: 2.025000 cf: 0.853893 radius: 2 
+SAT,8.269316,97025,0.056197,524453158
+
+./mpso_output_20160420-093524.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.050000 cf: 0.703465 radius: 2 
+TIMEOUT,60.001157,767750,0.994959,524453158
+
+./mpso_output_20160420-093643.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 4 
+SAT,1.513810,4155,0.086597,524453158
+
+./mpso_output_20160420-093702.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.100000 cf: 0.660117 radius: 2 
+SAT,3.222512,29020,0.004355,524453158
+
+./mpso_output_20160420-093724.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.000000 cf: 0.761083 radius: 2 
+SAT,5.785288,63740,0.030312,524453158
+
+./mpso_output_20160420-093748.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 0.800000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,2.152079,14465,0.039478,524453158
+
+./mpso_output_20160420-093808.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Griewank PRNG Seed: 1549064881 
+DEBUG INFO xmin: -600.000000 xmax: 600.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.795827,7840,0.099759,1549064881
+
+./mpso_output_20160420-093827.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Ackley PRNG Seed: 1187404954 
+DEBUG INFO xmin: -32.000000 xmax: 32.000000 true_min: 0.000000 err_goal: 0.001000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.522276,4810,0.000770,1187404954
+
+./mpso_output_20160420-093847.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 1296531115 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,3.424085,31470,0.093563,1296531115
+
+./mpso_output_20160420-093908.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rosenbrock PRNG Seed: 1967693548 
+DEBUG INFO xmin: -30.000000 xmax: 30.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,8.698659,104765,0.099801,1967693548
+
+./mpso_output_20160420-093934.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Sphere PRNG Seed: 1614618394 
+DEBUG INFO xmin: -100.000000 xmax: 100.000000 true_min: 0.000000 err_goal: 0.010000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.315854,2480,0.005540,1614618394
+
+./mpso_output_20160420-093953.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Griewank PRNG Seed: 498808182 
+DEBUG INFO xmin: -600.000000 xmax: 600.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.563419,5535,0.099878,498808182
+
+./mpso_output_20160420-094013.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Griewank PRNG Seed: 55437432 
+DEBUG INFO xmin: -600.000000 xmax: 600.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.571203,5615,0.098505,55437432
+
+./mpso_output_20160420-094032.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Sphere PRNG Seed: 2090933724 
+DEBUG INFO xmin: -100.000000 xmax: 100.000000 true_min: 0.000000 err_goal: 0.010000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.356333,2720,0.005258,2090933724
+
+./mpso_output_20160420-094052.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 1421700432 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.551728,5790,0.034999,1421700432
+
+./mpso_output_20160420-094112.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rosenbrock PRNG Seed: 1299827071 
+DEBUG INFO xmin: -30.000000 xmax: 30.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,12.075506,152940,0.099949,1299827071
+
+./mpso_output_20160420-094142.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Ackley PRNG Seed: 1590214902 
+DEBUG INFO xmin: -32.000000 xmax: 32.000000 true_min: 0.000000 err_goal: 0.001000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.449858,4130,0.000944,1590214902
+
+./mpso_output_20160420-094201.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Griewank PRNG Seed: 13242096 
+DEBUG INFO xmin: -600.000000 xmax: 600.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.437672,3775,0.085797,13242096
+
+./mpso_output_20160420-094220.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rosenbrock PRNG Seed: 59135052 
+DEBUG INFO xmin: -30.000000 xmax: 30.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,6.244813,71415,0.099718,59135052
+
+./mpso_output_20160420-094244.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Ackley PRNG Seed: 1171781410 
+DEBUG INFO xmin: -32.000000 xmax: 32.000000 true_min: 0.000000 err_goal: 0.001000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.508353,4570,0.000847,1171781410
+
+./mpso_output_20160420-094304.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Sphere PRNG Seed: 1643431418 
+DEBUG INFO xmin: -100.000000 xmax: 100.000000 true_min: 0.000000 err_goal: 0.010000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.276409,2210,0.007896,1643431418
+
+./mpso_output_20160420-094324.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 1058256067 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+TIMEOUT,60.001606,787160,0.994959,1058256067
+
+./mpso_output_20160420-094442.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 495622784 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.568464,6095,0.088854,495622784
+
+./mpso_output_20160420-094501.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Ackley PRNG Seed: 323759947 
+DEBUG INFO xmin: -32.000000 xmax: 32.000000 true_min: 0.000000 err_goal: 0.001000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.502705,4790,0.000944,323759947
+
+./mpso_output_20160420-094520.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Sphere PRNG Seed: 1584087043 
+DEBUG INFO xmin: -100.000000 xmax: 100.000000 true_min: 0.000000 err_goal: 0.010000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.315512,2480,0.008490,1584087043
+
+./mpso_output_20160420-094540.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Griewank PRNG Seed: 1860322579 
+DEBUG INFO xmin: -600.000000 xmax: 600.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,2.903325,22235,0.095410,1860322579
+
+./mpso_output_20160420-094602.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rosenbrock PRNG Seed: 1691282316 
+DEBUG INFO xmin: -30.000000 xmax: 30.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,7.152705,85995,0.099869,1691282316
+
+./mpso_output_20160420-094627.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Ackley PRNG Seed: 1944459723 
+DEBUG INFO xmin: -32.000000 xmax: 32.000000 true_min: 0.000000 err_goal: 0.001000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.521542,4865,0.000834,1944459723
+
+./mpso_output_20160420-094646.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rosenbrock PRNG Seed: 163843691 
+DEBUG INFO xmin: -30.000000 xmax: 30.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,12.190576,156175,0.099858,163843691
+
+./mpso_output_20160420-094716.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 1248212433 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,3.695128,33625,0.012136,1248212433
+
+./mpso_output_20160420-094738.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Sphere PRNG Seed: 2000751859 
+DEBUG INFO xmin: -100.000000 xmax: 100.000000 true_min: 0.000000 err_goal: 0.010000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.275905,2255,0.009161,2000751859
+
+./mpso_output_20160420-094757.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Griewank PRNG Seed: 292481479 
+DEBUG INFO xmin: -600.000000 xmax: 600.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.463233,4140,0.094250,292481479
+
+./mpso_output_20160420-094816.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rosenbrock PRNG Seed: 1585390058 
+DEBUG INFO xmin: -30.000000 xmax: 30.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.371827,3480,0.065692,1585390058
+
+./mpso_output_20160420-094835.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 1873350574 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.025000 cf: 0.729844 radius: 2 
+SAT,1.720909,7770,0.049092,1873350574
+
+./mpso_output_20160420-094855.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 0.500000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.050000 cf: 0.703465 radius: 4 
+SAT,2.458096,13425,0.077463,524453158
+
+./mpso_output_20160420-094915.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 0.500000 tmax: 10 
+DEBUG INFO c1: 2.125000 c2: 2.050000 cf: 0.660117 radius: 4 
+TIMEOUT,60.001445,530465,1.989918,524453158
+
+./mpso_output_20160420-095033.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 0.500000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.075000 cf: 0.680507 radius: 4 
+TIMEOUT,60.001538,543430,0.994959,524453158
+
+./mpso_output_20160420-095153.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.050000 cf: 0.703465 radius: 4 
+SAT,1.541984,3790,0.077642,524453158
+
+./mpso_output_20160420-095212.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Ackley PRNG Seed: 1880026316 
+DEBUG INFO xmin: -32.000000 xmax: 32.000000 true_min: 0.000000 err_goal: 0.001000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.050000 cf: 0.703465 radius: 4 
+SAT,1.534640,3430,0.000689,1880026316
+
+./mpso_output_20160420-095232.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Sphere PRNG Seed: 1225605784 
+DEBUG INFO xmin: -100.000000 xmax: 100.000000 true_min: 0.000000 err_goal: 0.010000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.050000 cf: 0.703465 radius: 4 
+SAT,1.335565,2065,0.004017,1225605784
+
+./mpso_output_20160420-095251.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rosenbrock PRNG Seed: 1202486927 
+DEBUG INFO xmin: -30.000000 xmax: 30.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.050000 cf: 0.703465 radius: 4 
+TIMEOUT,60.002134,568820,3.930839,1202486927
+
+./mpso_output_20160420-095410.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.200000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.050000 cf: 0.703465 radius: 4 
+TIMEOUT,60.001860,542685,2.984877,524453158
+
+./mpso_output_20160420-095528.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.000000 c2: 2.050000 cf: 0.800000 radius: 4 
+TIMEOUT,60.000833,549665,0.994959,524453158
+
+./mpso_output_20160420-095646.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.125000 cf: 0.641742 radius: 4 
+TIMEOUT,60.005306,542410,1.989918,524453158
+
+./mpso_output_20160420-095805.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.150000 cf: 0.625000 radius: 4 
+TIMEOUT,60.002121,549960,2.984877,524453158
+
+./mpso_output_20160420-095924.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.050000 c2: 2.050000 cf: 0.729844 radius: 4 
+SAT,1.743100,6440,0.076408,524453158
+
+./mpso_output_20160420-095944.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.150000 c2: 2.050000 cf: 0.641742 radius: 4 
+TIMEOUT,60.003721,533335,0.994959,524453158
+
+./mpso_output_20160420-100103.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.075000 cf: 0.680507 radius: 4 
+SAT,43.429910,385375,0.019751,524453158
+
+./mpso_output_20160420-100204.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.050000 cf: 0.703465 radius: 1 
+SAT,2.003544,15125,0.092906,524453158
+
+./mpso_output_20160420-100224.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.000000 cf: 0.761083 radius: 4 
+SAT,2.879799,18055,0.071415,524453158
+
+./mpso_output_20160420-100245.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 5 
+DEBUG INFO c1: 2.075000 c2: 2.050000 cf: 0.703465 radius: 4 
+SAT,37.850537,281300,0.085992,524453158
+
+./mpso_output_20160420-100340.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 524453158 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.100000 cf: 0.660117 radius: 4 
+SAT,1.471673,3505,0.094900,524453158
+
+./mpso_output_20160420-100400.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Ackley PRNG Seed: 1880026316 
+DEBUG INFO xmin: -32.000000 xmax: 32.000000 true_min: 0.000000 err_goal: 0.001000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.100000 cf: 0.660117 radius: 4 
+SAT,1.407761,2670,0.000908,1880026316
+
+./mpso_output_20160420-100419.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Sphere PRNG Seed: 1225605784 
+DEBUG INFO xmin: -100.000000 xmax: 100.000000 true_min: 0.000000 err_goal: 0.010000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.100000 cf: 0.660117 radius: 4 
+SAT,1.267940,1525,0.006648,1225605784
+
+./mpso_output_20160420-100438.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rosenbrock PRNG Seed: 1202486927 
+DEBUG INFO xmin: -30.000000 xmax: 30.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.100000 cf: 0.660117 radius: 4 
+SAT,7.558517,66200,0.099921,1202486927
+
+./mpso_output_20160420-100504.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Griewank PRNG Seed: 1549064881 
+DEBUG INFO xmin: -600.000000 xmax: 600.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.100000 cf: 0.660117 radius: 4 
+SAT,1.460754,3190,0.097682,1549064881
+
+./mpso_output_20160420-100523.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Ackley PRNG Seed: 1187404954 
+DEBUG INFO xmin: -32.000000 xmax: 32.000000 true_min: 0.000000 err_goal: 0.001000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.100000 cf: 0.660117 radius: 4 
+SAT,1.395122,2815,0.000760,1187404954
+
+./mpso_output_20160420-100543.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rastrigin PRNG Seed: 1296531115 
+DEBUG INFO xmin: -5.120000 xmax: 5.120000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.100000 cf: 0.660117 radius: 4 
+TIMEOUT,60.002414,549660,3.979831,1296531115
+
+./mpso_output_20160420-100701.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Rosenbrock PRNG Seed: 1967693548 
+DEBUG INFO xmin: -30.000000 xmax: 30.000000 true_min: 0.000000 err_goal: 0.100000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.100000 cf: 0.660117 radius: 4 
+SAT,1.714316,6220,0.099919,1967693548
+
+./mpso_output_20160420-100721.txt
+DEBUG INFO SS: 15 Dim: 5 Func Call: Sphere PRNG Seed: 1614618394 
+DEBUG INFO xmin: -100.000000 xmax: 100.000000 true_min: 0.000000 err_goal: 0.010000 
+DEBUG INFO Control Parameters cutoff_time: 60.000000 cutoff_length 2147483647 
+DEBUG INFO Local Search scheme: 2 freq: 5 prob: 0.500000 lambda: 1.000000 tmax: 10 
+DEBUG INFO c1: 2.075000 c2: 2.100000 cf: 0.660117 radius: 4 
+SAT,1.302499,1305,0.008261,1614618394
+
