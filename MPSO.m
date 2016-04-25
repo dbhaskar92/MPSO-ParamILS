@@ -19,14 +19,14 @@ function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_f
     % global params
     N = 15;
     dim = 5;
-    fun = str2func(func_name)
+    fun = str2func(func_name);
     fprintf(fileID,'DEBUG INFO SS: %d Dim: %d Func Call: %s PRNG Seed: %d \n', N, dim, func_name, seed);
     fprintf(fileID,'DEBUG INFO xmin: %f xmax: %f true_min: %f err_goal: %f \n', xmin, xmax, true_min, errgoal);
     fprintf(fileID,'DEBUG INFO Control Parameters cutoff_time: %f cutoff_length %d \n', cutoff_time, cutoff_length);
     
     % local search params
     freq = 5;
-    epsilon = 0.5;
+    epsilon = 0.1;
     scheme = 2;
     lambda = lbd;
     fprintf(fileID,'DEBUG INFO Local Search scheme: %d freq: %d prob: %f lambda: %f tmax: %d \n', scheme, freq, epsilon, lambda, tmax);
@@ -35,7 +35,7 @@ function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_f
     kappa = 1;
     phi = c1 + c2;
     cf = 2*kappa;
-    cf = cf/abs(2 - phi - sqrt(phi^2 - 4*phi))
+    cf = cf/abs(2 - phi - sqrt(phi^2 - 4*phi));
     fprintf(fileID,'DEBUG INFO c1: %f c2: %f cf: %f radius: %d \n', c1, c2, cf, rad);
     
     % initialization
@@ -83,7 +83,7 @@ function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_f
     [gbest_value, index] = min(f_values(:,1));
     gbest = x(index,:);                                             
     
-    while (toc(tStart) < cutoff_time && abs(gbest_value - true_min) > errgoal)
+    while (fev < cutoff_length && toc(tStart) < cutoff_time && abs(gbest_value - true_min) > errgoal)
         
             % update
             t = t + 1;
@@ -143,20 +143,16 @@ function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_f
                 gbest_value = candidate;
             end
             
+            % always perform local search on overall global best position
+            [y, y_value] = RWDE(fun, dim, lambda, tmax, gbest, gbest_value);
+            fev = fev + tmax;
+            if (y_value < gbest_value)
+                gbest = y;
+                gbest_value = y_value;
+            end
+            
             % local search (Schemes 1 and 2)
             if (mod(t,freq) == 0)
-            
-                if (scheme == 1)
-                    
-                    % local search on overall global best position
-                    [y, y_value] = RWDE(fun, dim, lambda, tmax, gbest, gbest_value);
-                    fev = fev + tmax;
-                    if (y_value < gbest_value)
-                        gbest = y;
-                        gbest_value = y_value;
-                    end
-                    
-                end
 
                 if (scheme == 2)
                     
@@ -181,8 +177,8 @@ function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_f
     optimum = gbest_value;
     tElapsed = toc(tStart);
     
-    if tElapsed < 60
-    	fprintf(fileID,'SAT,%f,%d,%f,%d', tElapsed, fev, gbest_value, seed);
+    if (fev < cutoff_length && tElapsed < cutoff_time)
+    	fprintf(fileID,'SUCCESS,%f,%d,%f,%d', tElapsed, fev, gbest_value, seed);
     else
     	fprintf(fileID,'TIMEOUT,%f,%d,%f,%d', tElapsed, fev, gbest_value, seed);	
     end

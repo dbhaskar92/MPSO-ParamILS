@@ -1,0 +1,1339 @@
+Call: /usr/bin/ruby ../scripts/param_ils_2_3_run.rb "-numRun" "1" "-scenariofile" "MPSO_scenario_run1.txt" "-validN" "1"
+
+
+seed: 2468
+algo: python mpso_wrapper_run1.py
+tunerTimeout (CPU time): 10800.0
+maxWallTime: 8640000.0
+maxEvals: 100000000
+run_obj: runlength
+overall_obj: mean1000
+instance_file: mpso-instances.txt
+test_instance_file: mpso-test-instances.txt
+N: 2000
+cutoff_time: 60.0
+cutoff_length: 400000
+R: 10
+pertubation_strength_basic: 
+pertubation_strength_scaling: false
+p_restart: 0.01
+Run 2
+Level 
+========================================================
+Starting ILS for level 1, i.e. a limit of N=2000, and cutoff time=60.0.
+Current CPU time = 0, this run goes until 10800.0 
+========================================================
+New Incumbent: 0, 100000000 [0, 0]. With state c1=2.05, c2=2.05, iter=5, rad=1, step=1.0
+ Same incumbent, new precision:
+New Incumbent: 5.464582, 22975.0 [1, 60.0]. With state c1=2.05, c2=2.05, iter=5, rad=1, step=1.0
+2/100000000, 16.584803/10800.0
+        -> Worse random: c1=2.05 c2=2.1 iter=5 rad=3 step=0.5 (44520.0 [based on 1 runs with cutoff 60.0])
+        -> Worse random: c1=2.1 c2=2.05 iter=8 rad=1 step=0.5 (33880.0 [based on 1 runs with cutoff 60.0])
+New inc: 3500.0
+New Incumbent: 25.408925000000004, 3500.0 [1, 60.0]. With state c1=2.1, c2=2, iter=10, rad=3, step=1.0
+          -> Take improving step to random c1=2.1 c2=2 iter=10 rad=3 step=1.0 (3500.0 [based on 1 runs with cutoff 60.0])
+
+5/100000000, 40.249675/10800.0
+        -> Worse random: c1=2.075 c2=2.125 iter=10 rad=2 step=1.0 (73835.0 [based on 1 runs with cutoff 60.0])
+        -> Worse random: c1=2.1 c2=2.15 iter=5 rad=1 step=0.5 (6610.0 [based on 1 runs with cutoff 60.0])
+7/100000000, 54.75850200000001/10800.0
+        -> Worse random: c1=2.1 c2=2 iter=8 rad=3 step=1.0 (54108.0 [based on 1 runs with cutoff 60.0])
+8/100000000, 114.75850200000002/10800.0
+        -> Worse random: c1=2.1 c2=2.125 iter=10 rad=1 step=0.8 (349695.0009140187 [based on 1 runs with cutoff 60.0])
+        -> Worse random: c1=2.1 c2=2.025 iter=5 rad=1 step=1.0 (23005.0 [based on 1 runs with cutoff 60.0])
+10/100000000, 126.36906500000002/10800.0
+        -> Worse random: c1=2.025 c2=2.1 iter=12 rad=3 step=1.0 (26643.0 [based on 1 runs with cutoff 60.0])
+11/100000000, 145.93909700000003/10800.0
+        -> Worse random: c1=2.05 c2=2.05 iter=5 rad=2 step=1.2 (91975.0 [based on 1 runs with cutoff 60.0])
+   BLS in iteration 1, start with c1=2.1 c2=2 iter=10 rad=3 step=1.0 (3500.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.1->2"], evaluating ...
+12/100000000, 205.93909700000003/10800.0
+        -> worse: (293210.0009124241 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.1->2.15"], evaluating ...
+13/100000000, 265.93909700000006/10800.0
+        -> worse: (291910.00091034366 [based on 1 runs with cutoff 60.0])
+    Changing ["rad: 3->1"], evaluating ...
+14/100000000, 301.87678600000004/10800.0
+        -> worse: (205820.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2->2.15"], evaluating ...
+New inc: 1635.0
+New Incumbent: 303.38959700000004, 1635.0 [1, 60.0]. With state c1=2.1, c2=2.15, iter=10, rad=3, step=1.0
+          -> Take improving step to neighbour c1=2.1 c2=2.15 iter=10 rad=3 step=1.0 (1635.0 [based on 1 runs with cutoff 60.0]) with flip 1
+
+          
+============= Performing 4 bonus runs of state: c1=2.1 c2=2.15 iter=10 rad=3 step=1.0 (1635.0 [based on 1 runs with cutoff 60.0]) ============ 
+
+ Same incumbent, new precision:
+New Incumbent: 307.40589800000004, 15815.0 [2, 60.0]. With state c1=2.1, c2=2.15, iter=10, rad=3, step=1.0
+17/100000000, 348.88898700000004/10800.0
+ Same incumbent, new precision:
+New Incumbent: 348.88898700000004, 133348877.0 [3, 60.0]. With state c1=2.1, c2=2.15, iter=10, rad=3, step=1.0
+ Same incumbent, new precision:
+New Incumbent: 350.25027700000004, 100012227.75 [4, 60.0]. With state c1=2.1, c2=2.15, iter=10, rad=3, step=1.0
+19/100000000, 396.080056/10800.0
+ Same incumbent, new precision:
+New Incumbent: 396.080056, 160009782.4 [5, 60.0]. With state c1=2.1, c2=2.15, iter=10, rad=3, step=1.0
+          -> After 4 bonus runs: c1=2.1 c2=2.15 iter=10 rad=3 step=1.0 (160009782.4 [based on 5 runs with cutoff 60.0])
+
+    Changing ["rad: 3->1"], evaluating ...
+20/100000000, 456.080056/10800.0
+        -> worse: (349985.0009118408 [based on 1 runs with cutoff 60.0])
+    Changing ["step: 1.0->1.2"], evaluating ...
+        -> worse: (2025.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.1->2.15"], evaluating ...
+24/100000000, 503.12045800000004/10800.0
+New inc: 80010517.2
+New Incumbent: 506.15165500000006, 80010517.2 [5, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+          -> Take improving step to neighbour c1=2.15 c2=2.15 iter=10 rad=3 step=1.0 (80010517.2 [based on 5 runs with cutoff 60.0]) with flip 2
+
+          
+============= Performing 3 bonus runs of state: c1=2.15 c2=2.15 iter=10 rad=3 step=1.0 (80010517.2 [based on 5 runs with cutoff 60.0]) ============ 
+
+ Same incumbent, new precision:
+New Incumbent: 507.43907100000007, 66675627.666666664 [6, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+28/100000000, 549.2251890000001/10800.0
+ Same incumbent, new precision:
+New Incumbent: 549.2251890000001, 114296252.42857143 [7, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+29/100000000, 590.1431970000001/10800.0
+ Same incumbent, new precision:
+New Incumbent: 590.1431970000001, 150009846.0 [8, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+          -> After 3 bonus runs: c1=2.15 c2=2.15 iter=10 rad=3 step=1.0 (150009846.0 [based on 8 runs with cutoff 60.0])
+
+    Changing ["c2: 2.15->2.05"], evaluating ...
+30/100000000, 650.1431970000001/10800.0
+        -> worse: (294280.00091373763 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.15->2.05"], evaluating ...
+31/100000000, 703.0560500000001/10800.0
+        -> worse: (259470.0 [based on 1 runs with cutoff 60.0])
+    Changing ["step: 1.0->0.8"], evaluating ...
+32/100000000, 763.0560500000001/10800.0
+        -> worse: (288765.0009111252 [based on 1 runs with cutoff 60.0])
+    Changing ["rad: 3->1"], evaluating ...
+33/100000000, 823.0560500000001/10800.0
+        -> worse: (344595.0009125037 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.15->2"], evaluating ...
+34/100000000, 883.0560500000001/10800.0
+        -> worse: (293470.0009116363 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.15->2.025"], evaluating ...
+35/100000000, 943.0560500000001/10800.0
+        -> worse: (292320.0009116436 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.15->2.075"], evaluating ...
+36/100000000, 1003.0560500000001/10800.0
+        -> worse: (289655.0009206703 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.15->2.1"], evaluating ...
+        -> worse: (1665.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.15->2.025"], evaluating ...
+        -> worse: (30950.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.15->2.125"], evaluating ...
+39/100000000, 1071.8324960000002/10800.0
+        -> worse: (297185.00091581495 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 10->8"], evaluating ...
+        -> worse: (18634.0 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 10->5"], evaluating ...
+41/100000000, 1136.760222/10800.0
+        -> worse: (258180.00091838776 [based on 1 runs with cutoff 60.0])
+    Changing ["rad: 3->2"], evaluating ...
+42/100000000, 1183.878519/10800.0
+        -> worse: (249235.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.15->2.075"], evaluating ...
+        -> worse: (5570.0 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 10->12"], evaluating ...
+44/100000000, 1246.475292/10800.0
+        -> worse: (304098.0009120096 [based on 1 runs with cutoff 60.0])
+    Changing ["step: 1.0->0.5"], evaluating ...
+45/100000000, 1306.475292/10800.0
+        -> worse: (289870.000913763 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.15->2.125"], evaluating ...
+46/100000000, 1366.475292/10800.0
+        -> worse: (297700.00091429363 [based on 1 runs with cutoff 60.0])
+    Changing ["step: 1.0->1.2"], evaluating ...
+47/100000000, 1426.475292/10800.0
+        -> worse: (300525.0009123853 [based on 1 runs with cutoff 60.0])
+          
+============= Performing 18 bonus runs of state: c1=2.15 c2=2.15 iter=10 rad=3 step=1.0 (150009846.0 [based on 8 runs with cutoff 60.0]) ============ 
+
+ Same incumbent, new precision:
+New Incumbent: 1427.772968, 133342207.0 [9, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+49/100000000, 1466.844363/10800.0
+ Same incumbent, new precision:
+New Incumbent: 1466.844363, 160008986.4 [10, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+ Same incumbent, new precision:
+New Incumbent: 1468.293598, 145462995.8181818 [11, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+51/100000000, 1510.230352/10800.0
+ Same incumbent, new precision:
+New Incumbent: 1510.230352, 166676912.91666666 [12, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+ Same incumbent, new precision:
+New Incumbent: 1511.807754, 153855713.84615386 [13, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+53/100000000, 1554.6470259999999/10800.0
+ Same incumbent, new precision:
+New Incumbent: 1554.6470259999999, 171437805.7857143 [14, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+ Same incumbent, new precision:
+New Incumbent: 1556.1077019999998, 160008806.4 [15, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+ Same incumbent, new precision:
+New Incumbent: 1561.0873789999998, 150009470.375 [16, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+56/100000000, 1603.8202089999997/10800.0
+ Same incumbent, new precision:
+New Incumbent: 1603.8202089999997, 164715089.82352942 [17, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+57/100000000, 1613.8752069999998/10800.0
+ Same incumbent, new precision:
+New Incumbent: 1613.8752069999998, 155566788.16666666 [18, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+ Same incumbent, new precision:
+New Incumbent: 1615.2035939999998, 147379167.47368422 [19, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+59/100000000, 1653.2890389999998/10800.0
+ Same incumbent, new precision:
+New Incumbent: 1653.2890389999998, 160011209.15 [20, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+ Same incumbent, new precision:
+New Incumbent: 1654.5738969999998, 152391692.52380952 [21, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+ Same incumbent, new precision:
+New Incumbent: 1655.8677549999998, 145464851.27272728 [22, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+62/100000000, 1698.4735189999997/10800.0
+ Same incumbent, new precision:
+New Incumbent: 1698.4735189999997, 156532249.08695653 [23, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+63/100000000, 1738.4054259999996/10800.0
+ Same incumbent, new precision:
+New Incumbent: 1738.4054259999996, 166677363.75 [24, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+64/100000000, 1784.8412059999996/10800.0
+ Same incumbent, new precision:
+New Incumbent: 1784.8412059999996, 176010269.24 [25, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+65/100000000, 1827.2711799999995/10800.0
+ Same incumbent, new precision:
+New Incumbent: 1827.2711799999995, 184625451.23076922 [26, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+          -> After 18 bonus runs for LM: c1=2.15 c2=2.15 iter=10 rad=3 step=1.0 (184625451.23076922 [based on 26 runs with cutoff 60.0])
+
+   LM for iteration 1: c1=2.15 c2=2.15 iter=10 rad=3 step=1.0 (184625451.23076922 [based on 26 runs with cutoff 60.0])
+
+========== DETAILED RESULTS (iteration 1): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 1): c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+==================================================================
+Training quality of this incumbent parameter configuration: 184625451.23076922, based on 26 runs with cutoff 60.0
+==================================================================
+
+Comparing LM against incumbent:
+c1=2.15 c2=2.15 iter=10 rad=3 step=1.0 (184625451.23076922 [based on 26 runs with cutoff 60.0])
+c1=2.15 c2=2.15 iter=10 rad=3 step=1.0 (184625451.23076922 [based on 26 runs with cutoff 60.0])
+LM better, change incumbent
+New Incumbent: 1827.2711799999995, 184625451.23076922 [26, 60.0]. With state c1=2.15, c2=2.15, iter=10, rad=3, step=1.0
+65/100000000, 1827.2711799999995/10800.0
+iteration 2, flip 4, evaluation count 65
+    perturb to ---> c1=2.15 c2=2.15 iter=10 rad=1 step=1.0 (344595.0009125037 [based on 1 runs with cutoff 60.0])
+    perturb to ---> c1=2.15 c2=2.05 iter=10 rad=1 step=1.0 (100000000 [based on 0 runs with cutoff 0])
+    perturb to ---> c1=2.15 c2=2.05 iter=10 rad=1 step=0.5 (100000000 [based on 0 runs with cutoff 0])
+66/100000000, 1887.2711799999995/10800.0
+   BLS in iteration 2, start with c1=2.15 c2=2.05 iter=10 rad=1 step=0.5 (339350.0009177856 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.125"], evaluating ...
+67/100000000, 1947.2711799999995/10800.0
+        -> worse: (346880.00091742206 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.1"], evaluating ...
+68/100000000, 2007.2711799999995/10800.0
+        -> worse: (340340.0009130884 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.15->2.125"], evaluating ...
+          -> Take improving step to neighbour c1=2.125 c2=2.05 iter=10 rad=1 step=0.5 (17835.0 [based on 1 runs with cutoff 60.0]) with flip 4
+
+          
+============= Performing 3 bonus runs of state: c1=2.125 c2=2.05 iter=10 rad=1 step=0.5 (17835.0 [based on 1 runs with cutoff 60.0]) ============ 
+
+71/100000000, 2018.7031189999996/10800.0
+          -> After 3 bonus runs: c1=2.125 c2=2.05 iter=10 rad=1 step=0.5 (24045.0 [based on 4 runs with cutoff 60.0])
+
+    Changing ["step: 0.5->1.0"], evaluating ...
+73/100000000, 2040.0531779999994/10800.0
+        -> worse: (113680.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2.05"], evaluating ...
+74/100000000, 2088.0900159999997/10800.0
+        -> worse: (274085.0 [based on 1 runs with cutoff 60.0])
+    Changing ["step: 0.5->1.2"], evaluating ...
+75/100000000, 2148.0900159999997/10800.0
+        -> worse: (344925.00091624894 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.025"], evaluating ...
+76/100000000, 2208.0900159999997/10800.0
+        -> worse: (351720.00091496995 [based on 1 runs with cutoff 60.0])
+    Changing ["rad: 1->3"], evaluating ...
+77/100000000, 2268.0900159999997/10800.0
+        -> worse: (298845.0009112575 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2"], evaluating ...
+78/100000000, 2278.249297/10800.0
+        -> worse: (50685.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.15"], evaluating ...
+80/100000000, 2310.2154699999996/10800.0
+        -> worse: (200017813.0 [based on 2 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2.1"], evaluating ...
+81/100000000, 2370.2154699999996/10800.0
+        -> worse: (348360.0009128245 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.1"], evaluating ...
+82/100000000, 2430.2154699999996/10800.0
+        -> worse: (341060.0009196589 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2.075"], evaluating ...
+83/100000000, 2490.2154699999996/10800.0
+        -> worse: (345710.00091109314 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 10->5"], evaluating ...
+84/100000000, 2550.2154699999996/10800.0
+        -> worse: (322165.0009108385 [based on 1 runs with cutoff 60.0])
+    Changing ["rad: 1->2"], evaluating ...
+          -> Take improving step to neighbour c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (4318.75 [based on 4 runs with cutoff 60.0]) with flip 5
+
+          
+============= Performing 12 bonus runs of state: c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (4318.75 [based on 4 runs with cutoff 60.0]) ============ 
+
+90/100000000, 2560.6047659999995/10800.0
+91/100000000, 2594.9100289999997/10800.0
+93/100000000, 2605.9899199999995/10800.0
+96/100000000, 2644.7204929999994/10800.0
+98/100000000, 2681.7358969999996/10800.0
+          -> After 12 bonus runs: c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (75013116.125 [based on 16 runs with cutoff 60.0])
+
+    Changing ["step: 0.5->1.0"], evaluating ...
+101/100000000, 2729.6131319999995/10800.0
+        -> worse: (223190.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2.025"], evaluating ...
+102/100000000, 2788.0329139999994/10800.0
+        -> worse: (306215.0 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 10->12"], evaluating ...
+103/100000000, 2848.0329139999994/10800.0
+        -> worse: (327978.00091072597 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2.1"], evaluating ...
+        -> worse: (10295.0 [based on 3 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.125"], evaluating ...
+108/100000000, 2859.319632999999/10800.0
+        -> worse: (9647.5 [based on 2 runs with cutoff 60.0])
+    Changing ["iter: 10->5"], evaluating ...
+109/100000000, 2873.249587999999/10800.0
+        -> worse: (64040.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.1"], evaluating ...
+110/100000000, 2933.249587999999/10800.0
+        -> worse: (326075.0009155767 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 10->8"], evaluating ...
+        -> worse: (8382.5 [based on 2 runs with cutoff 60.0])
+    Changing ["step: 0.5->0.8"], evaluating ...
+113/100000000, 2993.3157219999994/10800.0
+        -> worse: (295930.0 [based on 1 runs with cutoff 60.0])
+    Changing ["step: 0.5->1.2"], evaluating ...
+120/100000000, 3037.716980999999/10800.0
+121/100000000, 3072.775200999999/10800.0
+        -> worse: (100005497.125 [based on 8 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.025"], evaluating ...
+122/100000000, 3132.775200999999/10800.0
+        -> worse: (316670.00091242406 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2.075"], evaluating ...
+123/100000000, 3150.044351999999/10800.0
+        -> worse: (88275.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.15"], evaluating ...
+124/100000000, 3210.044351999999/10800.0
+        -> worse: (303445.0009105217 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2.15"], evaluating ...
+125/100000000, 3270.044351999999/10800.0
+        -> worse: (311600.0009211943 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2"], evaluating ...
+126/100000000, 3330.044351999999/10800.0
+        -> worse: (325745.0009167111 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.075"], evaluating ...
+127/100000000, 3390.044351999999/10800.0
+        -> worse: (316530.00091102486 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2"], evaluating ...
+128/100000000, 3450.044351999999/10800.0
+        -> worse: (314985.0009158753 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2.05"], evaluating ...
+129/100000000, 3510.044351999999/10800.0
+        -> worse: (315010.00091194396 [based on 1 runs with cutoff 60.0])
+          
+============= Performing 18 bonus runs of state: c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (75013116.125 [based on 16 runs with cutoff 60.0]) ============ 
+
+130/100000000, 3545.049123999999/10800.0
+133/100000000, 3556.3627149999993/10800.0
+136/100000000, 3578.214049999999/10800.0
+139/100000000, 3617.536583999999/10800.0
+New inc: 76943920.38461539
+New Incumbent: 3617.536583999999, 76943920.38461539 [26, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+ Same incumbent, new precision:
+New Incumbent: 3618.918288999999, 74094243.14814815 [27, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+ Same incumbent, new precision:
+New Incumbent: 3620.2630259999987, 71448096.25 [28, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+142/100000000, 3643.698430999999/10800.0
+ Same incumbent, new precision:
+New Incumbent: 3643.698430999999, 68988596.55172414 [29, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+143/100000000, 3678.134532999999/10800.0
+ Same incumbent, new precision:
+New Incumbent: 3678.134532999999, 80022310.03333333 [30, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+ Same incumbent, new precision:
+New Incumbent: 3679.452908999999, 77441013.58064516 [31, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+ Same incumbent, new precision:
+New Incumbent: 3683.8923449999993, 75022245.5 [32, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+146/100000000, 3722.588070999999/10800.0
+ Same incumbent, new precision:
+New Incumbent: 3722.588070999999, 84870359.3030303 [33, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+ Same incumbent, new precision:
+New Incumbent: 3724.050141999999, 82374270.35294117 [34, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+          -> After 18 bonus runs for LM: c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (82374270.35294117 [based on 34 runs with cutoff 60.0])
+
+   LM for iteration 2: c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (82374270.35294117 [based on 34 runs with cutoff 60.0])
+
+========== DETAILED RESULTS (iteration 2): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 2): c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+==================================================================
+Training quality of this incumbent parameter configuration: 82374270.35294117, based on 34 runs with cutoff 60.0
+==================================================================
+
+Comparing LM against incumbent:
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (82374270.35294117 [based on 34 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (82374270.35294117 [based on 34 runs with cutoff 60.0])
+LM better, change incumbent
+New Incumbent: 3724.050141999999, 82374270.35294117 [34, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+   Accepting new better local optimum: c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (82374270.35294117 [based on 34 runs with cutoff 60.0])
+147/100000000, 3724.050141999999/10800.0
+iteration 3, flip 7, evaluation count 147
+    perturb to ---> c1=2.075 c2=2.05 iter=10 rad=2 step=0.5 (88275.0 [based on 1 runs with cutoff 60.0])
+    perturb to ---> c1=2.075 c2=2.15 iter=10 rad=2 step=0.5 (100000000 [based on 0 runs with cutoff 0])
+    perturb to ---> c1=2.075 c2=2 iter=10 rad=2 step=0.5 (100000000 [based on 0 runs with cutoff 0])
+148/100000000, 3738.1874159999993/10800.0
+   BLS in iteration 3, start with c1=2.075 c2=2 iter=10 rad=2 step=0.5 (70890.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.075->2"], evaluating ...
+149/100000000, 3798.1874159999993/10800.0
+        -> worse: (301375.00091256667 [based on 1 runs with cutoff 60.0])
+    Changing ["step: 0.5->0.8"], evaluating ...
+150/100000000, 3838.5201499999994/10800.0
+        -> worse: (209385.0 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 10->5"], evaluating ...
+          -> Take improving step to neighbour c1=2.075 c2=2 iter=5 rad=2 step=0.5 (18020.0 [based on 1 runs with cutoff 60.0]) with flip 7
+
+          
+============= Performing 3 bonus runs of state: c1=2.075 c2=2 iter=5 rad=2 step=0.5 (18020.0 [based on 1 runs with cutoff 60.0]) ============ 
+
+          -> After 3 bonus runs: c1=2.075 c2=2 iter=5 rad=2 step=0.5 (["pruned", 2] [based on 4 runs with cutoff 60.0])
+
+    Changing ["c1: 2.075->2.05"], evaluating ...
+153/100000000, 3856.010122999999/10800.0
+        -> worse: (33420.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2->2.05"], evaluating ...
+          -> Take improving step to neighbour c1=2.075 c2=2.05 iter=5 rad=2 step=0.5 (7477.5 [based on 4 runs with cutoff 60.0]) with flip 8
+
+          
+============= Performing 2 bonus runs of state: c1=2.075 c2=2.05 iter=5 rad=2 step=0.5 (7477.5 [based on 4 runs with cutoff 60.0]) ============ 
+
+158/100000000, 3868.246991999999/10800.0
+          -> After 2 bonus runs: c1=2.075 c2=2.05 iter=5 rad=2 step=0.5 (8306.666666666666 [based on 6 runs with cutoff 60.0])
+
+    Changing ["c1: 2.075->2"], evaluating ...
+        -> worse: (10315.0 [based on 2 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.075"], evaluating ...
+162/100000000, 3878.973717999999/10800.0
+164/100000000, 3922.3857129999988/10800.0
+        -> worse: (133340583.66666667 [based on 3 runs with cutoff 60.0])
+    Changing ["rad: 2->3"], evaluating ...
+165/100000000, 3962.6803379999988/10800.0
+        -> worse: (175350.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.075->2.05"], evaluating ...
+166/100000000, 4022.6803379999988/10800.0
+        -> worse: (291230.00091006764 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 5->12"], evaluating ...
+168/100000000, 4057.179147999999/10800.0
+        -> worse: (200013135.5 [based on 2 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.1"], evaluating ...
+169/100000000, 4117.179147999999/10800.0
+        -> worse: (298460.000918012 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 5->10"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.15"], evaluating ...
+171/100000000, 4160.085719/10800.0
+        -> worse: (200010620.5 [based on 2 runs with cutoff 60.0])
+    Changing ["c1: 2.075->2.15"], evaluating ...
+          -> Take improving step to neighbour c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (3458.3333333333335 [based on 6 runs with cutoff 60.0]) with flip 9
+
+          
+============= Performing 9 bonus runs of state: c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (3458.3333333333335 [based on 6 runs with cutoff 60.0]) ============ 
+
+178/100000000, 4210.069278999999/10800.0
+179/100000000, 4253.867012999999/10800.0
+180/100000000, 4300.754529999999/10800.0
+182/100000000, 4345.1535509999985/10800.0
+183/100000000, 4385.7624209999985/10800.0
+185/100000000, 4428.967724999999/10800.0
+          -> After 9 bonus runs: c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (160005529.06666666 [based on 15 runs with cutoff 60.0])
+
+    Changing ["c2: 2.05->2.15"], evaluating ...
+187/100000000, 4490.286491999998/10800.0
+        -> worse: (289940.0009178072 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.15->2.025"], evaluating ...
+188/100000000, 4505.918143999998/10800.0
+        -> worse: (69200.0 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 5->12"], evaluating ...
+189/100000000, 4549.301488999999/10800.0
+        -> worse: (240159.0 [based on 1 runs with cutoff 60.0])
+    Changing ["step: 0.5->1.0"], evaluating ...
+190/100000000, 4609.301488999999/10800.0
+        -> worse: (286820.0009117753 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 5->8"], evaluating ...
+191/100000000, 4669.301488999999/10800.0
+        -> worse: (312345.00091154996 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.15->2.1"], evaluating ...
+        -> worse: (10335.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.1"], evaluating ...
+193/100000000, 4732.587516999999/10800.0
+        -> worse: (283150.00091176585 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 5->10"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["rad: 2->3"], evaluating ...
+        -> worse: (28540.0 [based on 1 runs with cutoff 60.0])
+    Changing ["step: 0.5->0.8"], evaluating ...
+195/100000000, 4799.894599999999/10800.0
+        -> worse: (290385.0009112995 [based on 1 runs with cutoff 60.0])
+    Changing ["step: 0.5->1.2"], evaluating ...
+196/100000000, 4818.252773999999/10800.0
+        -> worse: (85545.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.125"], evaluating ...
+197/100000000, 4878.252773999999/10800.0
+        -> worse: (288925.00091663975 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.075"], evaluating ...
+198/100000000, 4938.252773999999/10800.0
+        -> worse: (289830.000915382 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2"], evaluating ...
+199/100000000, 4998.252773999999/10800.0
+        -> worse: (283665.0009135195 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.15->2.125"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.025"], evaluating ...
+        -> worse: (10935.0 [based on 1 runs with cutoff 60.0])
+    Changing ["rad: 2->1"], evaluating ...
+201/100000000, 5061.6188809999985/10800.0
+        -> worse: (321585.000915877 [based on 1 runs with cutoff 60.0])
+          
+============= Performing 17 bonus runs of state: c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (160005529.06666666 [based on 15 runs with cutoff 60.0]) ============ 
+
+202/100000000, 5076.526362999998/10800.0
+205/100000000, 5087.072158999998/10800.0
+209/100000000, 5136.9967229999975/10800.0
+212/100000000, 5150.714459999997/10800.0
+215/100000000, 5213.638087999998/10800.0
+216/100000000, 5255.436316999998/10800.0
+          -> After 17 bonus runs for LM: c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (100020753.68752864 [based on 32 runs with cutoff 60.0])
+
+   LM for iteration 3: c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (100020753.68752864 [based on 32 runs with cutoff 60.0])
+
+========== DETAILED RESULTS (iteration 3): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 3): c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+==================================================================
+Training quality of this incumbent parameter configuration: 82374270.35294117, based on 34 runs with cutoff 60.0
+==================================================================
+
+Comparing LM against incumbent:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (100020753.68752864 [based on 32 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (82374270.35294117 [based on 34 runs with cutoff 60.0])
+Incumbent better, keeping it
+rejecting worse c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (100020753.68752864 [based on 32 runs with cutoff 60.0]), going back to c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (82374270.35294117 [based on 34 runs with cutoff 60.0])
+218/100000000, 5258.553859999997/10800.0
+iteration 4, flip 11, evaluation count 218
+    perturb to ---> c1=2.125 c2=2.05 iter=10 rad=3 step=0.5 (298845.0009112575 [based on 1 runs with cutoff 60.0])
+    perturb to ---> c1=2.15 c2=2.05 iter=10 rad=3 step=0.5 (100000000 [based on 0 runs with cutoff 0])
+    perturb to ---> c1=2.15 c2=2.05 iter=10 rad=1 step=0.5 (339350.0009177856 [based on 1 runs with cutoff 60.0])
+   BLS in iteration 4, start with c1=2.15 c2=2.05 iter=10 rad=1 step=0.5 (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["c1: 2.15->2.075"], evaluating ...
+          -> Take improving step to neighbour c1=2.075 c2=2.05 iter=10 rad=1 step=0.5 (["pruned", 1] [based on 2 runs with cutoff 60.0]) with flip 11
+
+          
+============= Performing 1 bonus runs of state: c1=2.075 c2=2.05 iter=10 rad=1 step=0.5 (["pruned", 1] [based on 2 runs with cutoff 60.0]) ============ 
+
+          -> After 1 bonus runs: c1=2.075 c2=2.05 iter=10 rad=1 step=0.5 (["pruned", 1] [based on 3 runs with cutoff 60.0])
+
+    Changing ["c1: 2.075->2.05"], evaluating ...
+          -> Take improving step to neighbour c1=2.05 c2=2.05 iter=10 rad=1 step=0.5 (["pruned", 1] [based on 3 runs with cutoff 60.0]) with flip 12
+
+          
+============= Performing 1 bonus runs of state: c1=2.05 c2=2.05 iter=10 rad=1 step=0.5 (["pruned", 1] [based on 3 runs with cutoff 60.0]) ============ 
+
+          -> After 1 bonus runs: c1=2.05 c2=2.05 iter=10 rad=1 step=0.5 (["pruned", 1] [based on 4 runs with cutoff 60.0])
+
+    Changing ["c2: 2.05->2.125"], evaluating ...
+219/100000000, 5304.633260999997/10800.0
+          -> Take improving step to neighbour c1=2.05 c2=2.125 iter=10 rad=1 step=0.5 (["pruned", 1] [based on 4 runs with cutoff 60.0]) with flip 13
+
+          
+============= Performing 1 bonus runs of state: c1=2.05 c2=2.125 iter=10 rad=1 step=0.5 (["pruned", 1] [based on 4 runs with cutoff 60.0]) ============ 
+
+          -> After 1 bonus runs: c1=2.05 c2=2.125 iter=10 rad=1 step=0.5 (["pruned", 1] [based on 5 runs with cutoff 60.0])
+
+    Changing ["c1: 2.05->2"], evaluating ...
+221/100000000, 5324.342163999997/10800.0
+          -> Take improving step to neighbour c1=2 c2=2.125 iter=10 rad=1 step=0.5 (["pruned", 2] [based on 5 runs with cutoff 60.0]) with flip 14
+
+          
+============= Performing 1 bonus runs of state: c1=2 c2=2.125 iter=10 rad=1 step=0.5 (["pruned", 2] [based on 5 runs with cutoff 60.0]) ============ 
+
+          -> After 1 bonus runs: c1=2 c2=2.125 iter=10 rad=1 step=0.5 (["pruned", 2] [based on 6 runs with cutoff 60.0])
+
+    Changing ["step: 0.5->0.8"], evaluating ...
+222/100000000, 5384.342163999997/10800.0
+        -> worse: (337110.00091189635 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.125->2"], evaluating ...
+223/100000000, 5444.342163999997/10800.0
+        -> worse: (326895.00091714645 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.125->2.1"], evaluating ...
+        -> worse: (9295.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.125->2.075"], evaluating ...
+225/100000000, 5456.371223999997/10800.0
+        -> worse: (46625.0 [based on 1 runs with cutoff 60.0])
+    Changing ["step: 0.5->1.0"], evaluating ...
+226/100000000, 5516.371223999997/10800.0
+        -> worse: (342765.00091111014 [based on 1 runs with cutoff 60.0])
+    Changing ["rad: 1->3"], evaluating ...
+227/100000000, 5576.371223999997/10800.0
+        -> worse: (292465.0009194736 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2->2.075"], evaluating ...
+228/100000000, 5636.371223999997/10800.0
+        -> worse: (345390.00091144844 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2->2.15"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["c2: 2.125->2.15"], evaluating ...
+229/100000000, 5668.211327999997/10800.0
+        -> worse: (179490.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.125->2.025"], evaluating ...
+230/100000000, 5678.447548999997/10800.0
+        -> worse: (50285.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2->2.125"], evaluating ...
+        -> worse: (18570.0 [based on 1 runs with cutoff 60.0])
+    Changing ["step: 0.5->1.2"], evaluating ...
+232/100000000, 5692.029834999997/10800.0
+        -> worse: (45645.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2->2.1"], evaluating ...
+233/100000000, 5752.029834999997/10800.0
+        -> worse: (355520.0009119186 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 10->5"], evaluating ...
+234/100000000, 5801.778245999996/10800.0
+        -> worse: (263745.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2->2.025"], evaluating ...
+        -> worse: (15160.0 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 10->8"], evaluating ...
+        -> worse: (16552.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.125->2.05"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["rad: 1->2"], evaluating ...
+237/100000000, 5869.482414999997/10800.0
+        -> worse: (319145.000914916 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 10->12"], evaluating ...
+        -> worse: (8898.0 [based on 1 runs with cutoff 60.0])
+          
+============= Performing 19 bonus runs of state: c1=2 c2=2.125 iter=10 rad=1 step=0.5 (["pruned", 2] [based on 6 runs with cutoff 60.0]) ============ 
+
+243/100000000, 5907.6012969999965/10800.0
+246/100000000, 5923.936274999996/10800.0
+248/100000000, 5960.031563999996/10800.0
+250/100000000, 5990.1997269999965/10800.0
+252/100000000, 6010.152547999997/10800.0
+253/100000000, 6040.447034999997/10800.0
+254/100000000, 6089.075803999997/10800.0
+259/100000000, 6125.846510999998/10800.0
+          -> After 19 bonus runs for LM: c1=2 c2=2.125 iter=10 rad=1 step=0.5 (80043698.4 [based on 25 runs with cutoff 60.0])
+
+   LM for iteration 4: c1=2 c2=2.125 iter=10 rad=1 step=0.5 (80043698.4 [based on 25 runs with cutoff 60.0])
+
+========== DETAILED RESULTS (iteration 4): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 4): c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+==================================================================
+Training quality of this incumbent parameter configuration: 82374270.35294117, based on 34 runs with cutoff 60.0
+==================================================================
+
+Comparing LM against incumbent:
+c1=2 c2=2.125 iter=10 rad=1 step=0.5 (80043698.4 [based on 25 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (82374270.35294117 [based on 34 runs with cutoff 60.0])
+Incumbent better, keeping it
+rejecting worse c1=2 c2=2.125 iter=10 rad=1 step=0.5 (80043698.4 [based on 25 runs with cutoff 60.0]), going back to c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (82374270.35294117 [based on 34 runs with cutoff 60.0])
+261/100000000, 6132.010296999998/10800.0
+iteration 5, flip 16, evaluation count 261
+    perturb to ---> c1=2.125 c2=2 iter=10 rad=2 step=0.5 (325745.0009167111 [based on 1 runs with cutoff 60.0])
+    perturb to ---> c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (82374270.35294117 [based on 34 runs with cutoff 60.0])
+    perturb to ---> c1=2.125 c2=2.05 iter=5 rad=2 step=0.5 (["pruned", 1] [based on 2 runs with cutoff 60.0])
+   BLS in iteration 5, start with c1=2.125 c2=2.05 iter=5 rad=2 step=0.5 (["pruned", 1] [based on 3 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2.075"], evaluating ...
+          -> Take improving step to neighbour c1=2.075 c2=2.05 iter=5 rad=2 step=0.5 (8306.666666666666 [based on 6 runs with cutoff 60.0]) with flip 16
+
+          
+============= Performing 1 bonus runs of state: c1=2.075 c2=2.05 iter=5 rad=2 step=0.5 (8306.666666666666 [based on 6 runs with cutoff 60.0]) ============ 
+
+262/100000000, 6173.695511999998/10800.0
+          -> After 1 bonus runs: c1=2.075 c2=2.05 iter=5 rad=2 step=0.5 (57150691.571428575 [based on 7 runs with cutoff 60.0])
+
+    Changing ["step: 0.5->1.0"], evaluating ...
+        -> worse: (22125.0 [based on 1 runs with cutoff 60.0])
+    Changing ["step: 0.5->0.8"], evaluating ...
+264/100000000, 6206.806318999998/10800.0
+        -> worse: (129960.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2"], evaluating ...
+        -> worse: (["pruned", 2] [based on 5 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.125"], evaluating ...
+265/100000000, 6266.806318999998/10800.0
+        -> worse: (291660.00091279537 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.1"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["c1: 2.075->2.1"], evaluating ...
+267/100000000, 6292.395948999999/10800.0
+        -> worse: (82221.66666666667 [based on 3 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.15"], evaluating ...
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 60.0])
+    Changing ["c1: 2.075->2.025"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["iter: 5->10"], evaluating ...
+        -> worse: (["pruned", 1] [based on 3 runs with cutoff 60.0])
+    Changing ["iter: 5->12"], evaluating ...
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 60.0])
+    Changing ["c1: 2.075->2.15"], evaluating ...
+268/100000000, 6334.784872999999/10800.0
+          -> Take improving step to neighbour c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (100020753.68752864 [based on 32 runs with cutoff 60.0]) with flip 17
+
+          
+============= Performing 11 bonus runs of state: c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (100020753.68752864 [based on 32 runs with cutoff 60.0]) ============ 
+
+State wants more detail (34+1) than incumbent (34), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (94137418.02943872 [based on 34 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (82374270.35294117 [based on 34 runs with cutoff 60.0])
+ Same incumbent, new precision:
+New Incumbent: 6339.741859999998, 80020954.34285714 [35, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+State wants more detail (35+1) than incumbent (35), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (91447857.37145476 [based on 35 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (80020954.34285714 [based on 35 runs with cutoff 60.0])
+ Same incumbent, new precision:
+New Incumbent: 6343.127676999999, 77798273.3888889 [36, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+274/100000000, 6345.585785999999/10800.0
+State wants more detail (36+1) than incumbent (36), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (88907816.47224768 [based on 36 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (77798273.3888889 [based on 36 runs with cutoff 60.0])
+ Same incumbent, new precision:
+New Incumbent: 6346.840560999999, 75695676.4054054 [37, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+State wants more detail (37+1) than incumbent (37), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (86504936.56759234 [based on 37 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (75695676.4054054 [based on 37 runs with cutoff 60.0])
+ Same incumbent, new precision:
+New Incumbent: 6355.1754089999995, 73705604.5263158 [38, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+278/100000000, 6356.772744/10800.0
+State wants more detail (38+1) than incumbent (38), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (84228606.13160306 [based on 38 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (73705604.5263158 [based on 38 runs with cutoff 60.0])
+ Same incumbent, new precision:
+New Incumbent: 6360.5786849999995, 71816563.25641026 [39, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+280/100000000, 6403.968986999999/10800.0
+State wants more detail (39+1) than incumbent (39), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (92325693.17951068 [based on 39 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (71816563.25641026 [based on 39 runs with cutoff 60.0])
+281/100000000, 6438.309178999999/10800.0
+ Same incumbent, new precision:
+New Incumbent: 6438.309178999999, 80021274.2 [40, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+282/100000000, 6479.356456999999/10800.0
+State wants more detail (40+1) than incumbent (40), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (100017550.87502292 [based on 40 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (80021274.2 [based on 40 runs with cutoff 60.0])
+ Same incumbent, new precision:
+New Incumbent: 6480.652561999999, 78069572.87804878 [41, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+State wants more detail (41+1) than incumbent (41), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (97578121.09758332 [based on 41 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (78069572.87804878 [based on 41 runs with cutoff 60.0])
+285/100000000, 6517.279968999999/10800.0
+ Same incumbent, new precision:
+New Incumbent: 6517.279968999999, 85735059.26190476 [42, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+286/100000000, 6559.482282999999/10800.0
+State wants more detail (42+1) than incumbent (42), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (104778761.09525992 [based on 42 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (85735059.26190476 [based on 42 runs with cutoff 60.0])
+ Same incumbent, new precision:
+New Incumbent: 6560.92761, 83741285.44186047 [43, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+          -> After 11 bonus runs: c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (102342083.16281201 [based on 43 runs with cutoff 60.0])
+
+    Changing ["c2: 2.05->2"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["iter: 5->8"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["c1: 2.15->2"], evaluating ...
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 60.0])
+    Changing ["step: 0.5->1.2"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.15"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["iter: 5->10"], evaluating ...
+        -> worse: (["pruned", 1] [based on 3 runs with cutoff 60.0])
+    Changing ["step: 0.5->1.0"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.1"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["c1: 2.15->2.05"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.025"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["rad: 2->1"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["iter: 5->12"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.075"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["rad: 2->3"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.125"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["step: 0.5->0.8"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+          
+============= Performing 16 bonus runs of state: c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (102342083.16281201 [based on 43 runs with cutoff 60.0]) ============ 
+
+State wants more detail (43+1) than incumbent (43), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (102342083.16281201 [based on 43 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (83741285.44186047 [based on 43 runs with cutoff 60.0])
+ Same incumbent, new precision:
+New Incumbent: 6563.727897, 81838165.31818181 [44, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+State wants more detail (44+1) than incumbent (44), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (100016161.15911174 [based on 44 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (81838165.31818181 [based on 44 runs with cutoff 60.0])
+ Same incumbent, new precision:
+New Incumbent: 6566.618351, 80019589.53333333 [45, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+State wants more detail (45+1) than incumbent (45), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (97793603.02224259 [based on 45 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (80019589.53333333 [based on 45 runs with cutoff 60.0])
+ Same incumbent, new precision:
+New Incumbent: 6569.457822, 78280110.52173913 [46, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+294/100000000, 6570.785757000001/10800.0
+State wants more detail (46+1) than incumbent (46), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (95667712.4130634 [based on 46 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (78280110.52173913 [based on 46 runs with cutoff 60.0])
+ Same incumbent, new precision:
+New Incumbent: 6572.143143, 76614619.34042554 [47, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+State wants more detail (47+1) than incumbent (47), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (93632295.0212961 [based on 47 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (76614619.34042554 [based on 47 runs with cutoff 60.0])
+297/100000000, 6608.546023000001/10800.0
+ Same incumbent, new precision:
+New Incumbent: 6608.546023000001, 83352231.45833333 [48, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+298/100000000, 6650.254737000001/10800.0
+State wants more detail (48+1) than incumbent (48), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (100014955.56251909 [based on 48 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (83352231.45833333 [based on 48 runs with cutoff 60.0])
+ Same incumbent, new precision:
+New Incumbent: 6652.502044000001, 81651276.3265306 [49, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+300/100000000, 6712.502044000001/10800.0
+State wants more detail (49+1) than incumbent (49), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (97979858.7143231 [based on 49 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (81651276.3265306 [based on 49 runs with cutoff 60.0])
+301/100000000, 6746.416137000001/10800.0
+ Same incumbent, new precision:
+New Incumbent: 6746.416137000001, 88018450.82 [50, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+302/100000000, 6787.4478370000015/10800.0
+State wants more detail (50+1) than incumbent (50), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (104020461.56003664 [based on 50 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (88018450.82 [based on 50 runs with cutoff 60.0])
+ Same incumbent, new precision:
+New Incumbent: 6788.7715130000015, 86292646.29411764 [51, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+State wants more detail (51+1) than incumbent (51), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (101980902.41180062 [based on 51 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (86292646.29411764 [based on 51 runs with cutoff 60.0])
+ Same incumbent, new precision:
+New Incumbent: 6791.832845000002, 84633284.92307693 [52, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+306/100000000, 6799.076422000002/10800.0
+State wants more detail (52+1) than incumbent (52), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (100020901.019266 [based on 52 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (84633284.92307693 [based on 52 runs with cutoff 60.0])
+ Same incumbent, new precision:
+New Incumbent: 6800.498545000002, 83036476.71698113 [53, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+State wants more detail (53+1) than incumbent (53), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (98133739.67927985 [based on 53 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (83036476.71698113 [based on 53 runs with cutoff 60.0])
+ Same incumbent, new precision:
+New Incumbent: 6803.308150000003, 81498828.81481482 [54, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+State wants more detail (54+1) than incumbent (54), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (96316514.22225615 [based on 54 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (81498828.81481482 [based on 54 runs with cutoff 60.0])
+311/100000000, 6844.169338000003/10800.0
+ Same incumbent, new precision:
+New Incumbent: 6844.169338000003, 87289850.12727273 [55, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+State wants more detail (55+1) than incumbent (55), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (94565465.78185149 [based on 55 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (87289850.12727273 [based on 55 runs with cutoff 60.0])
+313/100000000, 6881.531620000003/10800.0
+ Same incumbent, new precision:
+New Incumbent: 6881.531620000003, 92874138.53571428 [56, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+State wants more detail (56+1) than incumbent (56), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (92876822.10717557 [based on 56 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (92874138.53571428 [based on 56 runs with cutoff 60.0])
+ Same incumbent, new precision:
+New Incumbent: 6884.291771000003, 91244821.80701755 [57, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+State wants more detail (57+1) than incumbent (57), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (91247424.61406723 [based on 57 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (91244821.80701755 [based on 57 runs with cutoff 60.0])
+ Same incumbent, new precision:
+New Incumbent: 6886.857634000003, 89671690.65517241 [58, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+State wants more detail (58+1) than incumbent (58), doing incumbent first:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (89674227.46554883 [based on 58 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (89671690.65517241 [based on 58 runs with cutoff 60.0])
+319/100000000, 6898.0552860000025/10800.0
+ Same incumbent, new precision:
+New Incumbent: 6898.0552860000025, 88153363.94915254 [59, 60.0]. With state c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+          -> After 16 bonus runs for LM: c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (88154344.45765817 [based on 59 runs with cutoff 60.0])
+
+   LM for iteration 5: c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (88154344.45765817 [based on 59 runs with cutoff 60.0])
+
+========== DETAILED RESULTS (iteration 5): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 5): c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+==================================================================
+Training quality of this incumbent parameter configuration: 88153363.94915254, based on 59 runs with cutoff 60.0
+==================================================================
+
+Comparing LM against incumbent:
+c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (88154344.45765817 [based on 59 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (88153363.94915254 [based on 59 runs with cutoff 60.0])
+Incumbent better, keeping it
+rejecting worse c1=2.15 c2=2.05 iter=5 rad=2 step=0.5 (88154344.45765817 [based on 59 runs with cutoff 60.0]), going back to c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (88153363.94915254 [based on 59 runs with cutoff 60.0])
+320/100000000, 6899.456792000003/10800.0
+iteration 6, flip 19, evaluation count 320
+    perturb to ---> c1=2.125 c2=2.05 iter=8 rad=2 step=0.5 (8382.5 [based on 2 runs with cutoff 60.0])
+    perturb to ---> c1=2.125 c2=2.05 iter=8 rad=1 step=0.5 (100000000 [based on 0 runs with cutoff 0])
+    perturb to ---> c1=2.125 c2=2.05 iter=5 rad=1 step=0.5 (322165.0009108385 [based on 1 runs with cutoff 60.0])
+   BLS in iteration 6, start with c1=2.125 c2=2.05 iter=5 rad=1 step=0.5 (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.125"], evaluating ...
+322/100000000, 6908.956809000003/10800.0
+          -> Take improving step to neighbour c1=2.125 c2=2.125 iter=5 rad=1 step=0.5 (43100.0 [based on 2 runs with cutoff 60.0]) with flip 19
+
+          
+============= Performing 1 bonus runs of state: c1=2.125 c2=2.125 iter=5 rad=1 step=0.5 (43100.0 [based on 2 runs with cutoff 60.0]) ============ 
+
+          -> After 1 bonus runs: c1=2.125 c2=2.125 iter=5 rad=1 step=0.5 (["pruned", 2] [based on 3 runs with cutoff 60.0])
+
+    Changing ["step: 0.5->1.0"], evaluating ...
+323/100000000, 6968.956809000003/10800.0
+        -> worse: (320270.0009109025 [based on 1 runs with cutoff 60.0])
+    Changing ["step: 0.5->1.2"], evaluating ...
+        -> worse: (31225.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2.05"], evaluating ...
+325/100000000, 6994.125993000002/10800.0
+        -> worse: (94600.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2.025"], evaluating ...
+326/100000000, 7007.783011000002/10800.0
+        -> worse: (68455.0 [based on 1 runs with cutoff 60.0])
+    Changing ["rad: 1->3"], evaluating ...
+327/100000000, 7067.783011000002/10800.0
+        -> worse: (260335.0009120052 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2.075"], evaluating ...
+        -> worse: (22415.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.125->2"], evaluating ...
+329/100000000, 7132.995886000002/10800.0
+        -> worse: (321590.000914526 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.125->2.1"], evaluating ...
+          -> Take improving step to neighbour c1=2.125 c2=2.1 iter=5 rad=1 step=0.5 (15191.666666666666 [based on 3 runs with cutoff 60.0]) with flip 20
+
+          
+============= Performing 8 bonus runs of state: c1=2.125 c2=2.1 iter=5 rad=1 step=0.5 (15191.666666666666 [based on 3 runs with cutoff 60.0]) ============ 
+
+334/100000000, 7143.261792000002/10800.0
+337/100000000, 7187.022842000002/10800.0
+          -> After 8 bonus runs: c1=2.125 c2=2.1 iter=5 rad=1 step=0.5 (36379521.90909091 [based on 11 runs with cutoff 60.0])
+
+    Changing ["iter: 5->8"], evaluating ...
+341/100000000, 7205.912547000003/10800.0
+        -> worse: (71322.0 [based on 1 runs with cutoff 60.0])
+    Changing ["step: 0.5->1.0"], evaluating ...
+342/100000000, 7226.130801000003/10800.0
+        -> worse: (104625.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2.075"], evaluating ...
+        -> worse: (6405.0 [based on 1 runs with cutoff 60.0])
+    Changing ["rad: 1->2"], evaluating ...
+344/100000000, 7288.537119000003/10800.0
+        -> worse: (288560.000911113 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.1->2.025"], evaluating ...
+345/100000000, 7348.537119000003/10800.0
+        -> worse: (329845.0009102448 [based on 1 runs with cutoff 60.0])
+    Changing ["step: 0.5->1.2"], evaluating ...
+346/100000000, 7386.277642000004/10800.0
+        -> worse: (202910.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2.15"], evaluating ...
+347/100000000, 7446.277642000004/10800.0
+        -> worse: (326555.0009124018 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2.05"], evaluating ...
+        -> worse: (4825.0 [based on 2 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2.025"], evaluating ...
+350/100000000, 7481.734840000004/10800.0
+        -> worse: (167805.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2.1"], evaluating ...
+351/100000000, 7541.734840000004/10800.0
+        -> worse: (332350.0009115272 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.1->2.15"], evaluating ...
+352/100000000, 7580.0629240000035/10800.0
+        -> worse: (200780.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.1->2.075"], evaluating ...
+        -> worse: (41560.0 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 5->12"], evaluating ...
+354/100000000, 7626.261973000004/10800.0
+        -> worse: (219219.0 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 5->10"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["step: 0.5->0.8"], evaluating ...
+355/100000000, 7686.261973000004/10800.0
+        -> worse: (321650.0009126368 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2"], evaluating ...
+        -> worse: (6145.0 [based on 1 runs with cutoff 60.0])
+    Changing ["rad: 1->3"], evaluating ...
+357/100000000, 7724.8460360000045/10800.0
+        -> worse: (162070.0 [based on 1 runs with cutoff 60.0])
+          
+============= Performing 17 bonus runs of state: c1=2.125 c2=2.1 iter=5 rad=1 step=0.5 (36379521.90909091 [based on 11 runs with cutoff 60.0]) ============ 
+
+358/100000000, 7758.914118000004/10800.0
+360/100000000, 7794.755780000004/10800.0
+362/100000000, 7856.179468000004/10800.0
+363/100000000, 7890.213376000004/10800.0
+364/100000000, 7914.778849000004/10800.0
+369/100000000, 7954.832302000004/10800.0
+372/100000000, 7994.0889410000045/10800.0
+          -> After 17 bonus runs for LM: c1=2.125 c2=2.1 iter=5 rad=1 step=0.5 (85740614.1428899 [based on 28 runs with cutoff 60.0])
+
+   LM for iteration 6: c1=2.125 c2=2.1 iter=5 rad=1 step=0.5 (85740614.1428899 [based on 28 runs with cutoff 60.0])
+
+========== DETAILED RESULTS (iteration 6): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 6): c1=2.125, c2=2.05, iter=10, rad=2, step=0.5
+==================================================================
+Training quality of this incumbent parameter configuration: 88153363.94915254, based on 59 runs with cutoff 60.0
+==================================================================
+
+Comparing LM against incumbent:
+c1=2.125 c2=2.1 iter=5 rad=1 step=0.5 (85740614.1428899 [based on 28 runs with cutoff 60.0])
+c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (88153363.94915254 [based on 59 runs with cutoff 60.0])
+Incumbent better, keeping it
+rejecting worse c1=2.125 c2=2.1 iter=5 rad=1 step=0.5 (85740614.1428899 [based on 28 runs with cutoff 60.0]), going back to c1=2.125 c2=2.05 iter=10 rad=2 step=0.5 (88153363.94915254 [based on 59 runs with cutoff 60.0])
+374/100000000, 7996.970951000005/10800.0
+iteration 7, flip 22, evaluation count 374
+    perturb to ---> c1=2.125 c2=2 iter=10 rad=2 step=0.5 (325745.0009167111 [based on 1 runs with cutoff 60.0])
+    perturb to ---> c1=2.125 c2=2 iter=5 rad=2 step=0.5 (100000000 [based on 0 runs with cutoff 0])
+    perturb to ---> c1=2.125 c2=2.075 iter=5 rad=2 step=0.5 (100000000 [based on 0 runs with cutoff 0])
+   BLS in iteration 7, start with c1=2.125 c2=2.075 iter=5 rad=2 step=0.5 (2860.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.075->2.125"], evaluating ...
+        -> worse: (10810.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.075->2.1"], evaluating ...
+377/100000000, 8041.628658000004/10800.0
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["iter: 5->10"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["c2: 2.075->2.025"], evaluating ...
+        -> worse: (3420.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2.025"], evaluating ...
+379/100000000, 8103.525366000004/10800.0
+        -> worse: (291195.00091399666 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2.05"], evaluating ...
+380/100000000, 8163.525366000004/10800.0
+        -> worse: (288370.0009108028 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 5->12"], evaluating ...
+381/100000000, 8223.525366000005/10800.0
+        -> worse: (332355.0009156689 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2.15"], evaluating ...
+        -> worse: (["pruned", 1] [based on 3 runs with cutoff 60.0])
+    Changing ["c1: 2.125->2"], evaluating ...
+          -> Take improving step to neighbour c1=2 c2=2.075 iter=5 rad=2 step=0.5 (["pruned", 2] [based on 3 runs with cutoff 60.0]) with flip 22
+
+          
+============= Performing 11 bonus runs of state: c1=2 c2=2.075 iter=5 rad=2 step=0.5 (["pruned", 2] [based on 3 runs with cutoff 60.0]) ============ 
+
+385/100000000, 8233.994774000006/10800.0
+388/100000000, 8281.493835000007/10800.0
+389/100000000, 8325.277272000007/10800.0
+393/100000000, 8373.613905000006/10800.0
+          -> After 11 bonus runs: c1=2 c2=2.075 iter=5 rad=2 step=0.5 (85730835.21428572 [based on 14 runs with cutoff 60.0])
+
+    Changing ["iter: 5->10"], evaluating ...
+396/100000000, 8442.927263000005/10800.0
+        -> worse: (322115.00091005774 [based on 1 runs with cutoff 60.0])
+    Changing ["step: 0.5->1.0"], evaluating ...
+        -> worse: (5340.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2->2.075"], evaluating ...
+        -> worse: (["pruned", 3] [based on 5 runs with cutoff 60.0])
+    Changing ["c2: 2.075->2.1"], evaluating ...
+        -> worse: (5835.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.075->2.05"], evaluating ...
+401/100000000, 8456.350816000004/10800.0
+403/100000000, 8501.556943000003/10800.0
+405/100000000, 8513.717770000005/10800.0
+408/100000000, 8560.830203000005/10800.0
+410/100000000, 8580.308496000005/10800.0
+          -> Take improving step to neighbour c1=2 c2=2.05 iter=5 rad=2 step=0.5 (57169291.928571425 [based on 14 runs with cutoff 60.0]) with flip 23
+
+          
+============= Performing 5 bonus runs of state: c1=2 c2=2.05 iter=5 rad=2 step=0.5 (57169291.928571425 [based on 14 runs with cutoff 60.0]) ============ 
+
+412/100000000, 8642.740556000004/10800.0
+413/100000000, 8685.487546000004/10800.0
+414/100000000, 8745.487546000004/10800.0
+          -> After 5 bonus runs: c1=2 c2=2.05 iter=5 rad=2 step=0.5 (63209670.94746488 [based on 19 runs with cutoff 60.0])
+
+    Changing ["c2: 2.05->2.15"], evaluating ...
+416/100000000, 8757.402016000005/10800.0
+        -> worse: (43630.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2->2.1"], evaluating ...
+        -> worse: (["pruned", 3] [based on 5 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.025"], evaluating ...
+417/100000000, 8817.402016000005/10800.0
+        -> worse: (284265.00091540144 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 5->8"], evaluating ...
+418/100000000, 8877.402016000005/10800.0
+        -> worse: (301609.0009120154 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2->2.05"], evaluating ...
+        -> worse: (["pruned", 1] [based on 3 runs with cutoff 60.0])
+    Changing ["step: 0.5->1.2"], evaluating ...
+        -> worse: (29710.0 [based on 1 runs with cutoff 60.0])
+    Changing ["step: 0.5->1.0"], evaluating ...
+420/100000000, 8889.445220000005/10800.0
+        -> worse: (18165.0 [based on 1 runs with cutoff 60.0])
+    Changing ["rad: 2->3"], evaluating ...
+421/100000000, 8949.445220000005/10800.0
+        -> worse: (269785.0009131096 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2"], evaluating ...
+422/100000000, 9009.445220000005/10800.0
+        -> worse: (276270.0009203068 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.05->2.125"], evaluating ...
+        -> worse: (27930.0 [based on 1 runs with cutoff 60.0])
+    Changing ["rad: 2->1"], evaluating ...
+424/100000000, 9076.111699000005/10800.0
+        -> worse: (312560.0009121712 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 5->12"], evaluating ...
+        -> worse: (27783.0 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 5->10"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["step: 0.5->0.8"], evaluating ...
+426/100000000, 9088.409403000005/10800.0
+        -> worse: (22790.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2->2.15"], evaluating ...
+428/100000000, 9099.081943000005/10800.0
+429/100000000, 9128.548924000004/10800.0
+430/100000000, 9148.972205000004/10800.0
+433/100000000, 9167.895644000002/10800.0
+436/100000000, 9196.468009000002/10800.0
+437/100000000, 9238.943229000002/10800.0
+440/100000000, 9265.627749000003/10800.0
+444/100000000, 9279.370450000004/10800.0
+446/100000000, 9327.722946000004/10800.0
+447/100000000, 9369.942617000004/10800.0
+448/100000000, 9409.562577000004/10800.0
+449/100000000, 9451.859176000004/10800.0
+452/100000000, 9474.503676000004/10800.0
+454/100000000, 9487.746861000003/10800.0
+455/100000000, 9529.648613000003/10800.0
+456/100000000, 9552.596317000003/10800.0
+457/100000000, 9594.851442000003/10800.0
+461/100000000, 9607.042160000005/10800.0
+463/100000000, 9651.917337000004/10800.0
+New inc: 74620984.25426835
+New Incumbent: 9660.190631000005, 74620984.25426835 [59, 60.0]. With state c1=2, c2=2.05, iter=5, rad=2, step=0.5
+        -> worse: (88154344.45765817 [based on 59 runs with cutoff 60.0])
+    Changing ["c1: 2->2.025"], evaluating ...
+        -> worse: (["pruned", 1] [based on 3 runs with cutoff 60.0])
+    Changing ["c1: 2->2.125"], evaluating ...
+467/100000000, 9663.067419000005/10800.0
+        -> worse: (["pruned", 2] [based on 5 runs with cutoff 60.0])
+    Changing ["c1: 2->2.075"], evaluating ...
+        -> worse: (["pruned", 8] [based on 9 runs with cutoff 60.0])
+          
+============= Performing 18 bonus runs of state: c1=2 c2=2.05 iter=5 rad=2 step=0.5 (74620984.25426835 [based on 59 runs with cutoff 60.0]) ============ 
+
+468/100000000, 9677.599137000005/10800.0
+ Same incumbent, new precision:
+New Incumbent: 9677.599137000005, 73378415.60003056 [60, 60.0]. With state c1=2, c2=2.05, iter=5, rad=2, step=0.5
+469/100000000, 9720.499144000005/10800.0
+ Same incumbent, new precision:
+New Incumbent: 9720.499144000005, 78733113.72134152 [61, 60.0]. With state c1=2, c2=2.05, iter=5, rad=2, step=0.5
+470/100000000, 9756.322310000005/10800.0
+ Same incumbent, new precision:
+New Incumbent: 9756.322310000005, 77468907.93551344 [62, 60.0]. With state c1=2, c2=2.05, iter=5, rad=2, step=0.5
+ Same incumbent, new precision:
+New Incumbent: 9758.457785000004, 76239391.61907671 [63, 60.0]. With state c1=2, c2=2.05, iter=5, rad=2, step=0.5
+472/100000000, 9800.456985000004/10800.0
+ Same incumbent, new precision:
+New Incumbent: 9800.456985000004, 81298307.39065364 [64, 60.0]. With state c1=2, c2=2.05, iter=5, rad=2, step=0.5
+473/100000000, 9843.018056000004/10800.0
+ Same incumbent, new precision:
+New Incumbent: 9843.018056000004, 86201410.36925897 [65, 60.0]. With state c1=2, c2=2.05, iter=5, rad=2, step=0.5
+ Same incumbent, new precision:
+New Incumbent: 9846.393479000004, 84895668.16669443 [66, 60.0]. With state c1=2, c2=2.05, iter=5, rad=2, step=0.5
+475/100000000, 9888.983408000004/10800.0
+ Same incumbent, new precision:
+New Incumbent: 9888.983408000004, 89598792.53734079 [67, 60.0]. With state c1=2, c2=2.05, iter=5, rad=2, step=0.5
+ Same incumbent, new precision:
+New Incumbent: 9891.615011000004, 88281379.55885048 [68, 60.0]. With state c1=2, c2=2.05, iter=5, rad=2, step=0.5
+477/100000000, 9911.525748000004/10800.0
+ Same incumbent, new precision:
+New Incumbent: 9911.525748000004, 87004283.1159686 [69, 60.0]. With state c1=2, c2=2.05, iter=5, rad=2, step=0.5
+478/100000000, 9971.525748000004/10800.0
+ Same incumbent, new precision:
+New Incumbent: 9971.525748000004, 85765514.92861077 [70, 60.0]. With state c1=2, c2=2.05, iter=5, rad=2, step=0.5
+ Same incumbent, new precision:
+New Incumbent: 9974.323229000003, 84557791.69017963 [71, 60.0]. With state c1=2, c2=2.05, iter=5, rad=2, step=0.5
+ Same incumbent, new precision:
+New Incumbent: 9977.436438000002, 83383634.72226048 [72, 60.0]. With state c1=2, c2=2.05, iter=5, rad=2, step=0.5
+ Same incumbent, new precision:
+New Incumbent: 9979.381277000002, 82241516.09592813 [73, 60.0]. With state c1=2, c2=2.05, iter=5, rad=2, step=0.5
+482/100000000, 9988.011649000002/10800.0
+ Same incumbent, new precision:
+New Incumbent: 9988.011649000002, 81131029.1892264 [74, 60.0]. With state c1=2, c2=2.05, iter=5, rad=2, step=0.5
+ Same incumbent, new precision:
+New Incumbent: 9991.550617000003, 80049603.53337006 [75, 60.0]. With state c1=2, c2=2.05, iter=5, rad=2, step=0.5
+484/100000000, 10014.982633000003/10800.0
+ Same incumbent, new precision:
+New Incumbent: 10014.982633000003, 78999136.51319413 [76, 60.0]. With state c1=2, c2=2.05, iter=5, rad=2, step=0.5
+ Same incumbent, new precision:
+New Incumbent: 10020.036737000004, 77973703.76626953 [77, 60.0]. With state c1=2, c2=2.05, iter=5, rad=2, step=0.5
+          -> After 18 bonus runs for LM: c1=2 c2=2.05 iter=5 rad=2 step=0.5 (77973703.76626953 [based on 77 runs with cutoff 60.0])
+
+   LM for iteration 7: c1=2 c2=2.05 iter=5 rad=2 step=0.5 (77973703.76626953 [based on 77 runs with cutoff 60.0])
+
+========== DETAILED RESULTS (iteration 7): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 7): c1=2, c2=2.05, iter=5, rad=2, step=0.5
+==================================================================
+Training quality of this incumbent parameter configuration: 77973703.76626953, based on 77 runs with cutoff 60.0
+==================================================================
+
+Comparing LM against incumbent:
+c1=2 c2=2.05 iter=5 rad=2 step=0.5 (77973703.76626953 [based on 77 runs with cutoff 60.0])
+c1=2 c2=2.05 iter=5 rad=2 step=0.5 (77973703.76626953 [based on 77 runs with cutoff 60.0])
+LM better, change incumbent
+New Incumbent: 10020.036737000004, 77973703.76626953 [77, 60.0]. With state c1=2, c2=2.05, iter=5, rad=2, step=0.5
+   Accepting new better local optimum: c1=2 c2=2.05 iter=5 rad=2 step=0.5 (77973703.76626953 [based on 77 runs with cutoff 60.0])
+485/100000000, 10020.036737000004/10800.0
+iteration 8, flip 25, evaluation count 485
+    perturb to ---> c1=2 c2=2.05 iter=5 rad=1 step=0.5 (312560.0009121712 [based on 1 runs with cutoff 60.0])
+    perturb to ---> c1=2 c2=2.125 iter=5 rad=1 step=0.5 (263745.0 [based on 1 runs with cutoff 60.0])
+    perturb to ---> c1=2 c2=2.15 iter=5 rad=1 step=0.5 (100000000 [based on 0 runs with cutoff 0])
+   BLS in iteration 8, start with c1=2 c2=2.15 iter=5 rad=1 step=0.5 (4980.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2->2.15"], evaluating ...
+487/100000000, 10082.040764000005/10800.0
+        -> worse: (325010.0009113412 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.15->2.1"], evaluating ...
+488/100000000, 10092.928410000004/10800.0
+489/100000000, 10103.158977000005/10800.0
+          -> Take improving step to neighbour c1=2 c2=2.1 iter=5 rad=1 step=0.5 (60067.5 [based on 2 runs with cutoff 60.0]) with flip 25
+
+          
+============= Performing 3 bonus runs of state: c1=2 c2=2.1 iter=5 rad=1 step=0.5 (60067.5 [based on 2 runs with cutoff 60.0]) ============ 
+
+          -> After 3 bonus runs: c1=2 c2=2.1 iter=5 rad=1 step=0.5 (29328.0 [based on 5 runs with cutoff 60.0])
+
+    Changing ["c2: 2.1->2.125"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["c1: 2->2.025"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["iter: 5->12"], evaluating ...
+493/100000000, 10124.808004000004/10800.0
+        -> worse: (89679.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.1->2"], evaluating ...
+494/100000000, 10184.808004000004/10800.0
+        -> worse: (307960.0009216305 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 5->8"], evaluating ...
+495/100000000, 10219.813678000004/10800.0
+        -> worse: (195819.0 [based on 1 runs with cutoff 60.0])
+    Changing ["rad: 1->3"], evaluating ...
+496/100000000, 10254.870478000004/10800.0
+        -> worse: (153510.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.1->2.025"], evaluating ...
+497/100000000, 10314.870478000004/10800.0
+        -> worse: (311090.00091862795 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.1->2.075"], evaluating ...
+        -> worse: (20565.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.1->2.05"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["step: 0.5->1.2"], evaluating ...
+501/100000000, 10328.250908000004/10800.0
+          -> Take improving step to neighbour c1=2 c2=2.1 iter=5 rad=1 step=1.2 (13306.0 [based on 5 runs with cutoff 60.0]) with flip 26
+
+          
+============= Performing 10 bonus runs of state: c1=2 c2=2.1 iter=5 rad=1 step=1.2 (13306.0 [based on 5 runs with cutoff 60.0]) ============ 
+
+505/100000000, 10368.615744000004/10800.0
+506/100000000, 10401.419460000005/10800.0
+508/100000000, 10431.026334000006/10800.0
+510/100000000, 10466.928180000004/10800.0
+512/100000000, 10502.949700000005/10800.0
+          -> After 10 bonus runs: c1=2 c2=2.1 iter=5 rad=1 step=1.2 (106699540.93333334 [based on 15 runs with cutoff 60.0])
+
+    Changing ["c2: 2.1->2.05"], evaluating ...
+514/100000000, 10564.468685000005/10800.0
+        -> worse: (318115.0009118986 [based on 1 runs with cutoff 60.0])
+    Changing ["c2: 2.1->2.125"], evaluating ...
+515/100000000, 10612.742618000006/10800.0
+        -> worse: (253875.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2->2.075"], evaluating ...
+516/100000000, 10639.328552000006/10800.0
+        -> worse: (140885.0 [based on 1 runs with cutoff 60.0])
+    Changing ["iter: 5->12"], evaluating ...
+517/100000000, 10652.280176000006/10800.0
+        -> worse: (69246.0 [based on 1 runs with cutoff 60.0])
+    Changing ["c1: 2->2.125"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 60.0])
+    Changing ["c2: 2.1->2.025"], evaluating ...
+518/100000000, 10712.280176000006/10800.0
+        -> worse: (309110.0009100834 [based on 1 runs with cutoff 60.0])
+    Changing ["rad: 1->2"], evaluating ...
+519/100000000, 10772.280176000006/10800.0
+        -> worse: (291175.0009211428 [based on 1 runs with cutoff 60.0])
+    Changing ["rad: 1->3"], evaluating ...
+521/100000000, 10822.654282000007/10800.0
+        -> worse: (200007198.0 [based on 2 runs with cutoff 60.0])
+ParamILS has reached the specified CPU time limit of 10800.0 seconds => stopping the search now.
+          
+============= Performing 8 bonus runs of state: c1=2 c2=2.1 iter=5 rad=1 step=1.2 (106699540.93333334 [based on 15 runs with cutoff 60.0]) ============ 
+
+ParamILS has reached the specified CPU time limit of 10800.0 seconds => stopping the search now.
+          -> After 8 bonus runs for LM: c1=2 c2=2.1 iter=5 rad=1 step=1.2 (106699540.93333334 [based on 15 runs with cutoff 60.0])
+
+   LM for iteration 8: c1=2 c2=2.1 iter=5 rad=1 step=1.2 (106699540.93333334 [based on 15 runs with cutoff 60.0])
+
+========== DETAILED RESULTS (iteration 8): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 8): c1=2, c2=2.05, iter=5, rad=2, step=0.5
+==================================================================
+Training quality of this incumbent parameter configuration: 77973703.76626953, based on 77 runs with cutoff 60.0
+==================================================================
+
+Comparing LM against incumbent:
+c1=2 c2=2.1 iter=5 rad=1 step=1.2 (106699540.93333334 [based on 15 runs with cutoff 60.0])
+c1=2 c2=2.05 iter=5 rad=2 step=0.5 (77973703.76626953 [based on 77 runs with cutoff 60.0])
+Incumbent better, keeping it
+rejecting worse c1=2 c2=2.1 iter=5 rad=1 step=1.2 (106699540.93333334 [based on 15 runs with cutoff 60.0]), going back to c1=2 c2=2.05 iter=5 rad=2 step=0.5 (77973703.76626953 [based on 77 runs with cutoff 60.0])
+ParamILS has reached the specified CPU time limit of 10800.0 seconds => stopping the search now.
+Final solution for depth 1 with limit N=2000, and cutoff time=60.0.
+New Incumbent: 10822.654282000007, 77973703.76626953 [77, 60.0]. With state c1=2, c2=2.05, iter=5, rad=2, step=0.5
+
+==================================================================
+ParamILS is finished.
+==================================================================
+
+Final best parameter configuration found: c1=2, c2=2.05, iter=5, rad=2, step=0.5
+==================================================================
+Active parameters: c1=2, c2=2.05, iter=5, rad=2, step=0.5
+
+==================================================================
+Training quality of this final best found parameter configuration: 77973703.76626953, based on 77 runs with cutoff 60.0
+==================================================================
+
+
+==================================================================
+Computing validation result on independent data -- 1 runs with cutoff time 60.0...
+==================================================================
+RastriginS3: 400000.001
+Combined result: 400000001.0
+
+================================================================
+Final best parameter configuration: c1=2, c2=2.05, iter=5, rad=2, step=0.5
+==================================================================
+Active parameters: c1=2, c2=2.05, iter=5, rad=2, step=0.5
+
+================================================================
+Training quality of this final best found parameter configuration: 77973703.76626953, based on 77 runs with cutoff 60.0
+Test quality of this final best found parameter configuration: 400000001.0, based on 1 independent runs with cutoff 60.0
+==================================================================

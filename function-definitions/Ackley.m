@@ -1,3 +1,9 @@
+%
+% Ackley's Function
+% (xmin, xmax) = (-32, 32)
+% error tolerance: 1e-3
+%
+
 function [ y ] = Ackley( x )
 
     dim = numel(x);
