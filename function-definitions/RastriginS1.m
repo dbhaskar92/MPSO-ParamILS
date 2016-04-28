@@ -1,7 +1,7 @@
 %
 % Shifted Rotated Rastrigin's Function (S1)
 % (xmin, xmax) = (-5, 5)
-% error tolerance: 10
+% error tolerance: 1
 %
 
 function [ y ] = RastriginS1(x)

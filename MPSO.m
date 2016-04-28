@@ -17,7 +17,7 @@ function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_f
 	addpath('./function-definitions');
 
     % global params
-    N = 15;
+    N = 30;
     dim = 5;
     fun = str2func(func_name);
     fprintf(fileID,'DEBUG INFO SS: %d Dim: %d Func Call: %s PRNG Seed: %d \n', N, dim, func_name, seed);
@@ -25,7 +25,7 @@ function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_f
     fprintf(fileID,'DEBUG INFO Control Parameters cutoff_time: %f cutoff_length %d \n', cutoff_time, cutoff_length);
     
     % local search params
-    freq = 5;
+    freq = 10;
     epsilon = 0.1;
     scheme = 2;
     lambda = lbd;
@@ -83,7 +83,7 @@ function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_f
     [gbest_value, index] = min(f_values(:,1));
     gbest = x(index,:);                                             
     
-    while (fev < cutoff_length && toc(tStart) < cutoff_time && abs(gbest_value - true_min) > errgoal)
+    while (toc(tStart) < cutoff_time && abs(gbest_value - true_min) > errgoal)
         
             % update
             t = t + 1;
@@ -177,7 +177,7 @@ function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_f
     optimum = gbest_value;
     tElapsed = toc(tStart);
     
-    if (fev < cutoff_length && tElapsed < cutoff_time)
+    if (tElapsed < cutoff_time)
     	fprintf(fileID,'SUCCESS,%f,%d,%f,%d', tElapsed, fev, gbest_value, seed);
     else
     	fprintf(fileID,'TIMEOUT,%f,%d,%f,%d', tElapsed, fev, gbest_value, seed);	

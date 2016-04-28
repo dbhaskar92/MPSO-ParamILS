@@ -1,7 +1,7 @@
 %
 % Shifted Rotated Griewank's Function (G1)
 % (xmin, xmax) = (-600, 600)
-% error tolerance: 1e-1
+% error tolerance: 1
 %
 
 function [ y ] = GriewankG1(x)

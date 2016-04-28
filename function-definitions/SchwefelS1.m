@@ -1,7 +1,7 @@
 %
 % Shifted Schwefel's Function (S1)
 % (xmin, xmax) = (-100, 100)
-% error tolerance: 1e-1
+% error tolerance: 1e-2
 %
 
 function [ y ] = SchwefelS1( x )

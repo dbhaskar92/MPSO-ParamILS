@@ -1,11 +1,11 @@
-algo = python mpso_wrapper.py
+algo = python mpso_wrapper_run3.py
 execdir = .
 deterministic = 0
-run_obj = runlength
-overall_obj = adj_mean
+run_obj = runtime
+overall_obj = mean10
 cutoff_time = 60
 cutoff_length = max
-tunerTimeout = 7200
+tunerTimeout = 18000
 paramfile = mpso-params.txt
 outdir = paramils-output/
 instance_file = mpso-instances.txt

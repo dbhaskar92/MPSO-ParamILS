@@ -50,7 +50,7 @@ seq=(instance_name,instance_specific_string,str(cutoff_time),str(cutoff_length),
 paramstring = ','.join(seq)
 	
 # Create command and output filename
-filename = './paramils-output/mpso_output_'+time.strftime("%Y%m%d-%H%M%S")+'.txt'
+filename = './paramils-output/mpso_run3_output_'+time.strftime("%Y%m%d-%H%M%S")+'.txt'
 cmd = 'matlabdb /r "MPSO('+paramstring+')"'
 if os.path.isfile(filename):
 	print 'Error: Output file already exists'

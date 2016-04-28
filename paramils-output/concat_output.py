@@ -3,9 +3,9 @@
 import glob
 import os
 
-path = "./mpso_run2_output_*.txt"
+path = "./mpso_run0_output_*.txt"
 
-ofname = "./output_run2_log.txt"
+ofname = "./output_run0_log.txt"
 
 if os.path.isfile(ofname):
 	print 'Error: Output file already exists'

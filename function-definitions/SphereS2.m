@@ -1,7 +1,7 @@
 %
 % Shifted Sphere Function (S2)
 % (xmin, xmax) = (-100, 100)
-% error tolerance: 1e-2
+% error tolerance: 1e-3
 %
 
 function [ y ] = SphereS2( x )

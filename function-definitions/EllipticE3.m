@@ -1,7 +1,7 @@
 %
 % Shifted Rotated High Conditioned Elliptic Function (E3)
 % (xmin, xmax) = (-100, 100)
-% error tolerance: 10
+% error tolerance: 500
 %
 
 function [ y ] = EllipticE3( x )
