@@ -1,0 +1,6 @@
+Final best parameter configuration: N=90, eps=1, freq=50, iter=5, rad=2, step=8.0
+==================================================================
+Active parameters: N=90, eps=1, freq=50, iter=5, rad=2, step=8.0
+==================================================================
+Training quality of this final best found parameter configuration: 85.77830421875002, based on 96 runs with cutoff 60.0
+Test quality of this final best found parameter configuration: 112.04056599614204, based on 100 independent runs with cutoff 60.0

@@ -1,7 +1,7 @@
 %
 % Shifted Rotated High Conditioned Elliptic Function (E1)
 % (xmin, xmax) = (-100, 100)
-% error tolerance: 500
+% error tolerance: 100
 %
 
 function [ y ] = EllipticE1( x )

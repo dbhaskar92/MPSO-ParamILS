@@ -1,7 +1,7 @@
 SphereS2 -100,100,-30,0.001
 SphereS3 -100,100,111,0.001
-EllipticE2 -100,100,-51,500
-EllipticE3 -100,100,82,500
+EllipticE2 -100,100,-51,100
+EllipticE3 -100,100,82,100
 GriewankG2 -600,600,4,1
 GriewankG3 -600,600,87,1
 RastriginR2 -5.12,5.12,115,1

@@ -10,14 +10,13 @@
 %   Sunday, April 17, 2016
 %
 
-function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_file,cutoff_time,cutoff_length,seed,c1,c2,rad,lbd,tmax)
+function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_file,cutoff_time,cutoff_length,seed,N,rad,frq,ep,lbd,tmax)
 
     cd('/home/dbhaskar92/MPSO-ParamILS');
     fileID = fopen(out_file, 'w');
 	addpath('./function-definitions');
 
     % global params
-    N = 30;
     dim = 5;
     fun = str2func(func_name);
     fprintf(fileID,'DEBUG INFO SS: %d Dim: %d Func Call: %s PRNG Seed: %d \n', N, dim, func_name, seed);
@@ -25,17 +24,16 @@ function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_f
     fprintf(fileID,'DEBUG INFO Control Parameters cutoff_time: %f cutoff_length %d \n', cutoff_time, cutoff_length);
     
     % local search params
-    freq = 10;
-    epsilon = 0.1;
+    freq = frq;
+    epsilon = ep;
     scheme = 2;
     lambda = lbd;
     fprintf(fileID,'DEBUG INFO Local Search scheme: %d freq: %d prob: %f lambda: %f tmax: %d \n', scheme, freq, epsilon, lambda, tmax);
     
     % social params 
-    kappa = 1;
-    phi = c1 + c2;
-    cf = 2*kappa;
-    cf = cf/abs(2 - phi - sqrt(phi^2 - 4*phi));
+    c1 = 2.05;
+    c2 = 2.05;
+    cf = 0.729;
     fprintf(fileID,'DEBUG INFO c1: %f c2: %f cf: %f radius: %d \n', c1, c2, cf, rad);
     
     % initialization
@@ -96,9 +94,15 @@ function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_f
             % constrain x
             for i = 1 : N
                 for j = 1 : dim
-                    if ((x(i,j) < xmin) || (x(i,j) > xmax))
-                        x(i,j) = xmin + (xmax - xmin)*rand(1,1);
-                    end
+                	if (x(i,j) < xmin)
+                		x(i,j) = xmin;
+                	elseif (x(i,j) > xmax)
+                		x(i,j) = xmax;
+                	end 
+					% random redistribution                
+                    %	if ((x(i,j) < xmin) || (x(i,j) > xmax))
+                    %	    x(i,j) = xmin + (xmax - xmin)*rand(1,1);
+                    %	end
                 end
             end
             
@@ -143,16 +147,16 @@ function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_f
                 gbest_value = candidate;
             end
             
-            % always perform local search on overall global best position
-            [y, y_value] = RWDE(fun, dim, lambda, tmax, gbest, gbest_value);
-            fev = fev + tmax;
-            if (y_value < gbest_value)
-                gbest = y;
-                gbest_value = y_value;
-            end
-            
             % local search (Schemes 1 and 2)
             if (mod(t,freq) == 0)
+            
+            	% perform local search on overall global best position
+            	[y, y_value] = RWDE(fun, dim, lambda, tmax, gbest, gbest_value);
+            	fev = fev + tmax;
+		        if (y_value < gbest_value)
+		            gbest = y;
+		            gbest_value = y_value;
+		        end
 
                 if (scheme == 2)
                     
@@ -176,6 +180,8 @@ function [optimum, gbest, fev] = MPSO(func_name,xmin,xmax,true_min,errgoal,out_f
     
     optimum = gbest_value;
     tElapsed = toc(tStart);
+    
+	fprintf(fileID,'DEBUG INFO Location of optimum: %s \n', mat2str(gbest));
     
     if (tElapsed < cutoff_time)
     	fprintf(fileID,'SUCCESS,%f,%d,%f,%d', tElapsed, fev, gbest_value, seed);
