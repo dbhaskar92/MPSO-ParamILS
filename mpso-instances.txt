@@ -1,5 +1,4 @@
 SphereS1 -100,100,-450,0.001
-EllipticE1 -100,100,145,100
 GriewankG1 -600,600,-180,1
 RastriginR1 -5.12,5.12,-330,1
 RosenbrockR1 -30,30,390,1

@@ -1,0 +1,6 @@
+Final best parameter configuration: c1=2.075, c2=2.05, iter=5, rad=5, step=0.5
+==================================================================
+Active parameters: c1=2.075, c2=2.05, iter=5, rad=5, step=0.5
+==================================================================
+Training quality of this final best found parameter configuration: 411549.5811182854, based on 131 runs with cutoff 1000000000.0
+Test quality of this final best found parameter configuration: 609662.3511989139, based on 100 independent runs with cutoff 1000000000.0
